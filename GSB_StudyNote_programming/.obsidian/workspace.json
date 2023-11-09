@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md"
+                "file": "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "8f563b261fcf37d8",
   "lastOpenFiles": [
+    "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
     "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
     "DB/RealMySql/4. 아키텍쳐/Double Write Buffer.md",
     "Double Write Buffer 작동 방식.png",
@@ -165,7 +166,6 @@
     "DB/RealMySql/4. 아키텍쳐/슬로우 쿼리 로그.md",
     "DB/RealMySql/4. 아키텍쳐/MySQL 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
-    "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
     "DB/RealMySql/4. 아키텍쳐/에러 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/InnoDB 버퍼 풀.md",
     "DB/RealMySql/4. 아키텍쳐/리두 로그.md",
