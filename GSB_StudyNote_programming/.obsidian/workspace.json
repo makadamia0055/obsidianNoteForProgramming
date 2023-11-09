@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
+                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md"
+                "file": "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md"
               }
             }
           }
@@ -149,23 +149,24 @@
   },
   "active": "8f563b261fcf37d8",
   "lastOpenFiles": [
-    "공부 목록.md",
+    "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
+    "DB/RealMySql/4. 아키텍쳐/Double Write Buffer.md",
+    "Double Write Buffer 작동 방식.png",
+    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
     "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
+    "공부 목록.md",
     "DB/RealMySql/Real MySQL.md",
     "img/MySQL 서버 메모리 사용 및 할당 구조.png",
     "img/MySQL 현재 스레드 목록 보기 예제.png",
     "img/MySQL 스레드 모델에 따른 처리 프로세스.png",
     "img/MySQL 서버 아키텍처.png",
-    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
     "DB/RealMySql/4. 아키텍쳐/MyISAM.md",
-    "DB/RealMySql/4. 아키텍쳐/Double Write Buffer.md",
     "DB/RealMySql/4. 아키텍쳐/제너럴 쿼리 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/슬로우 쿼리 로그.md",
     "DB/RealMySql/4. 아키텍쳐/MySQL 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
     "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
     "DB/RealMySql/4. 아키텍쳐/에러 로그 파일.md",
-    "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
     "DB/RealMySql/4. 아키텍쳐/InnoDB 버퍼 풀.md",
     "DB/RealMySql/4. 아키텍쳐/리두 로그.md",
     "DB/RealMySql/4. 아키텍쳐/LRU List.md",
@@ -181,7 +182,6 @@
     "DB/RealMySql/4. 아키텍쳐/쿼리 파서(Query Parser).md",
     "DB/RealMySql/4. 아키텍쳐/핸들러(Handler).md",
     "img/InnoDB의 잠금 없는 일관된 읽기 예시.png",
-    "img/InnoDB 구조.png",
     "img",
     "DB/RealMySql/4. 아키텍쳐",
     "DB",
