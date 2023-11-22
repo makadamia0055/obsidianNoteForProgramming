@@ -24,6 +24,7 @@ tags:
 	- Dirty Reads
 	- Non-repeatable reads
 	- Phantom reads
+- 부정합이라고도 한다.
 
 
 ## Dirty reads

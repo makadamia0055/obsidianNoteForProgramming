@@ -8,61 +8,38 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b9337297430fbb1",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "img/5장 관련/격리 수준 별 나타날 수 있는 읽기 이상현상.png"
-              }
-            }
-          },
-          {
-            "id": "4fff89b94ad038b0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/격리수준(Isolation level).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbc32ccfe7bfc92e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "동시성 제어.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e11008235021fd93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9831248e4e82f8ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
+                "file": "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10fdbf38a1a0f6f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/RealMySql/Real MySQL.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e7104f2e4d5b7f5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
+                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
+                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md"
+                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md"
               }
             }
           }
@@ -197,46 +174,50 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "9831248e4e82f8ff",
+  "active": "7e7104f2e4d5b7f5",
   "lastOpenFiles": [
-    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
+    "DB/RealMySql/Real MySQL.md",
+    "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
+    "DB/RealMySql/7. 데이터 암호화",
+    "DB/RealMySql/6. 데이터 압축/6. 데이터 압축.md",
+    "테이블 압축의 작동 방식.png",
+    "페이지 압축의 작동 방식.png",
+    "img/6장 관련",
+    "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 전파.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/격리수준(Isolation level).md",
+    "DB/RealMySql/6. 데이터 압축",
+    "DB/RealMySql/5. 트랜잭션과 잠금/스냅샷 격리수준(Snapshot isolation).md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
+    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
+    "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/InnoDB 스토리지 엔진 잠금.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/바이너리 로그.md",
-    "동시성 제어.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL 엔진 레벨 잠금.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션.md",
     "img/5장 관련/MySQL의 Read committed 격리 수준 구현 예시.png",
     "img/5장 관련/격리 수준 별 나타날 수 있는 읽기 이상현상.png",
     "img/5장 관련/dirty read example.png",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
     "img/5장 관련/MySQL에서 Repeatable read의 Phantom reads 현상 예시.png",
     "img/5장 관련/MySQL의 Repeatable 격리 수준 예시.png",
-    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
     "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
     "img/5장 관련/MySQL의 격리수준과 이상 현상.png",
-    "DB/RealMySql/5. 트랜잭션과 잠금/스냅샷 격리수준(Snapshot isolation).md",
     "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 스케줄.md",
     "img/5장 관련/Phantom reads 현상 예시.png",
     "img/5장 관련/NonRepeatable reads 예시.png",
-    "DB/RealMySql/5. 트랜잭션과 잠금/InnoDB 스토리지 엔진 잠금.md",
     "일단 생략.md",
     "공부 목록.md",
-    "img/5장 관련/InnoDB 잠금의 종류.png",
     "!MySQL 엔진 레벨 잠금.md",
     "img/5장 관련",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL 엔진 레벨 잠금.md",
     "DB/RealMySql/4. 아키텍쳐/제너럴 쿼리 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/MySQL 로그 파일.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션.md",
     "무제 파일.md",
-    "트랜잭션 시나리오.png",
-    "DB/RealMySql/Real MySQL.md",
     "DB/RealMySql/5. 트랜잭션과 잠금",
     "DB/RealMySql/무제 파일.md",
     "img/4장 관련",
     "DB/RealMySql/4. 아키텍쳐/체크 포인트.md",
-    "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
     "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
-    "DB/RealMySql/4. 아키텍쳐/리두 로그.md",
-    "DB/RealMySql/4. 아키텍쳐/InnoDB 버퍼 풀.md",
     "img",
     "DB/RealMySql/4. 아키텍쳐",
     "DB",

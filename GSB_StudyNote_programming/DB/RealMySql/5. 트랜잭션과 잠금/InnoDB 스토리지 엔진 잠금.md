@@ -10,8 +10,8 @@ tags:
 	- 이전 버전의 MySQL 서버에서는 InnoDB의 잠금 정보 진단 도구로 
 		- lock_monitor 생성
 			- innodb_lock_monitor라는 이름의 테이블을 생성해 InnoDB잠금 정보를 덤프하는 방법
-		- `SHOW ENFINE INNODB STATUS` 명령
-			- 거의 어셈플리 코드 같아서 이해 어려움.
+		- `SHOW ENGINE INNODB STATUS` 명령
+			- 거의 어셈블리 코드 같아서 이해 어려움.
 	
 	 - 최신 버전에서는 InnoDB의 트랜잭션과 잠금, 그리고 잠금 대기 중인 트랜잭션의 목록을 조회할 수 있는 방법이 도입되었다.
 		- MySQL 서버의 `information_schema` 데이터베이스에 존재하는 `INNODB_TRX`, `INNODB_LOCKS`, `INNODB_LOCK_WAITS` 테이블을 조인해서 조회하면 현재 잠금을 대기하는 트랜잭션과, 잠금을 보유하는 트랜잭션의 조회 가능.
@@ -61,7 +61,7 @@ tags:
 ## 자동 증가 락(AUTO_INCREMENT lock)
 - MySQL에서 자동 증가하는 숫자 값을 관리하기 위해 AUTO_INCREMENT 칼럼 속성이 존재.
 	- AUTO_INCREMENT 칼럼이 사용된 테이블에 동시에 여러 레코드가 INSERT되는 경우에도, 레코드는 **중복되지 않고 저장된 순서대로 증가**하는 일련 번호를 가져야 한다. 
-- InnoDB에서는 이를 위해 내부적으로 AUTO_INCREMENT lock라는 테이블 수주의 잠금을 사용한다. 
+- InnoDB에서는 이를 위해 내부적으로 AUTO_INCREMENT lock라는 **테이블 수준**의 잠금을 사용한다. 
 - AUTO_INCREMENT 락은 INSERT와 REPLACE 쿼리 문장 같이 새로운 레코드를 저장하는 쿼리에서만 필요하다.
 	- UPDATE나 DELETE 등의 쿼리에서는 걸리지 않는다. 
 - InnoDB의 다른 잠금과는 달리, AUTO_INCREMENT 락은 트랜잭션과 관계 없이 INSERT나 REPLACE 문장에서 AUTO_INCREMENT **값을 가져오는 순간만** 락이 걸렸다가 즉시 해제된다. 
@@ -108,6 +108,7 @@ tags:
 ```
 
 - 위 SQL문에서 A조건을 만족하는 레코드는 250개 B를 만족하는 조건은 1개라고 가정하자. 인덱스로 이용할 수 있는 칼럼이 A조건일 때, 해당 SQL문은 **인덱스 리프 노드를 통해 250개의 레코드만 탐색하면서 B조건을 만족하는 칼럼을 찾아** 총 250개의 레코드가 잠기게 된다. 만약 테이블에 **인덱스가 하나도 없다면, UPDATE는 풀 스캔을 하면서 모든 레코드를 잠그게 된다.** 이것이 인덱스 설계가 중요한 이유다.
+- 이 때 레코드의 인덱스에 넥스트 키 락이 설정되지 않을까
 ---
 
 # 레코드 수준의 잠금 확인 및 해제
