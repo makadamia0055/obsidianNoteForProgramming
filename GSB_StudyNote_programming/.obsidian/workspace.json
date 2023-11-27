@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9831248e4e82f8ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "10fdbf38a1a0f6f5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/Real MySQL.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e7104f2e4d5b7f5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "B-Tree 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "B-Tree 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "B-Tree 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "B-Tree 인덱스.md"
+                "file": "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md"
               }
             }
           }
@@ -174,12 +147,33 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "7e7104f2e4d5b7f5",
+  "active": "10fdbf38a1a0f6f5",
   "lastOpenFiles": [
+    "인덱스 레인지 스캔 확인 명령어.png",
+    "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
+    "8.9 인덱스 레인지 스캔을 통한 데이터 레코드 읽기.png",
+    "8.8인덱스를 이용한 레인지 스캔.png",
+    "선택도와 기수성.md",
+    "인덱스 페이지의 구성.jpg",
+    "img/8장 관련/b-tree 인덱스의 구조.png",
+    "페이지.md",
     "DB/RealMySql/8. 인덱스/8. 인덱스.md",
-    "B-Tree 인덱스.md",
+    "인덱스.md",
+    "외래키.md",
+    "유니크 인덱스.md",
+    "클러스터링 인덱스.md",
+    "멀티 밸류 인덱스.md",
+    "함수 기반 인덱스.md",
+    "전문 검색 인덱스.md",
+    "R-Tree 인덱스.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
+    "img/8장 관련/InnoDB의 b tree의 리프 노드와 테이블 데이터 레코드.png",
+    "Pasted image 20231127185733.jpg",
+    "DB/RealMySql/Real MySQL.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
+    "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
     "DB/RealMySql/8. 인덱스/디스크 읽기 방식.md",
-    "솔리드 스테이드 드라이브와 하드 디스크 드라이브의 성능 벤치 마크.png",
+    "img/8장 관련/솔리드 스테이드 드라이브와 하드 디스크 드라이브의 성능 벤치 마크.png",
     "img/8장 관련/주요 장치의 초당 처리 횟수.png",
     "img/8장 관련",
     "일단 생략.md",
@@ -189,36 +183,14 @@
     "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
     "DB/RealMySql/6. 데이터 압축/6. 데이터 압축.md",
     "img/6장 관련/페이지 압축의 작동 방식.png",
-    "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
     "img/7장 관련",
-    "DB/RealMySql/Real MySQL.md",
     "DB/RealMySql/7. 데이터 암호화",
-    "img/6장 관련/테이블 압축의 작동 방식.png",
     "img/6장 관련",
     "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 전파.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/격리수준(Isolation level).md",
     "DB/RealMySql/6. 데이터 압축",
     "DB/RealMySql/5. 트랜잭션과 잠금/스냅샷 격리수준(Snapshot isolation).md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
-    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
-    "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/InnoDB 스토리지 엔진 잠금.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/바이너리 로그.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL 엔진 레벨 잠금.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션.md",
-    "img/5장 관련/MySQL의 Read committed 격리 수준 구현 예시.png",
-    "img/5장 관련/격리 수준 별 나타날 수 있는 읽기 이상현상.png",
-    "img/5장 관련/dirty read example.png",
-    "img/5장 관련/MySQL에서 Repeatable read의 Phantom reads 현상 예시.png",
-    "img/5장 관련/MySQL의 Repeatable 격리 수준 예시.png",
-    "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
-    "img/5장 관련/MySQL의 격리수준과 이상 현상.png",
-    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 스케줄.md",
-    "!MySQL 엔진 레벨 잠금.md",
     "img/5장 관련",
-    "DB/RealMySql/4. 아키텍쳐/제너럴 쿼리 로그 파일.md",
-    "DB/RealMySql/4. 아키텍쳐/MySQL 로그 파일.md",
     "DB/RealMySql/5. 트랜잭션과 잠금",
     "img/4장 관련",
     "img"
