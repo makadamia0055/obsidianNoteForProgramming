@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
+                "file": "B-Tree 인덱스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
+                "file": "B-Tree 인덱스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
+                "file": "B-Tree 인덱스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md"
+                "file": "B-Tree 인덱스.md"
               }
             }
           }
@@ -176,14 +176,25 @@
   },
   "active": "7e7104f2e4d5b7f5",
   "lastOpenFiles": [
-    "DB/RealMySql/Real MySQL.md",
+    "DB/RealMySql/8. 인덱스/8. 인덱스.md",
+    "B-Tree 인덱스.md",
+    "DB/RealMySql/8. 인덱스/디스크 읽기 방식.md",
+    "솔리드 스테이드 드라이브와 하드 디스크 드라이브의 성능 벤치 마크.png",
+    "img/8장 관련/주요 장치의 초당 처리 횟수.png",
+    "img/8장 관련",
+    "일단 생략.md",
+    "DB/RealMySql/8. 인덱스",
+    "공부 목록.md",
+    "DB/RealMySql/6. 데이터 압축/테이블 스페이스.md",
     "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
-    "DB/RealMySql/7. 데이터 암호화",
     "DB/RealMySql/6. 데이터 압축/6. 데이터 압축.md",
-    "테이블 압축의 작동 방식.png",
-    "페이지 압축의 작동 방식.png",
-    "img/6장 관련",
+    "img/6장 관련/페이지 압축의 작동 방식.png",
     "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
+    "img/7장 관련",
+    "DB/RealMySql/Real MySQL.md",
+    "DB/RealMySql/7. 데이터 암호화",
+    "img/6장 관련/테이블 압축의 작동 방식.png",
+    "img/6장 관련",
     "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 전파.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/격리수준(Isolation level).md",
     "DB/RealMySql/6. 데이터 압축",
@@ -204,23 +215,12 @@
     "DB/RealMySql/4. 아키텍쳐/언두 로그.md",
     "img/5장 관련/MySQL의 격리수준과 이상 현상.png",
     "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션 스케줄.md",
-    "img/5장 관련/Phantom reads 현상 예시.png",
-    "img/5장 관련/NonRepeatable reads 예시.png",
-    "일단 생략.md",
-    "공부 목록.md",
     "!MySQL 엔진 레벨 잠금.md",
     "img/5장 관련",
     "DB/RealMySql/4. 아키텍쳐/제너럴 쿼리 로그 파일.md",
     "DB/RealMySql/4. 아키텍쳐/MySQL 로그 파일.md",
-    "무제 파일.md",
     "DB/RealMySql/5. 트랜잭션과 잠금",
-    "DB/RealMySql/무제 파일.md",
     "img/4장 관련",
-    "DB/RealMySql/4. 아키텍쳐/체크 포인트.md",
-    "DB/RealMySql/4. 아키텍쳐/어댑티브 해시 인덱스.md",
-    "img",
-    "DB/RealMySql/4. 아키텍쳐",
-    "DB",
-    "DB/RealMySql"
+    "img"
   ]
 }
