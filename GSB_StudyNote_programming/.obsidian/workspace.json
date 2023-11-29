@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/8. 인덱스.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0a8341bf78212861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DB/RealMySql/8. 인덱스/내림차순 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/8. 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/8. 인덱스.md",
+                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/8. 인덱스.md"
+                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md"
               }
             }
           }
@@ -162,32 +149,35 @@
   },
   "active": "999f33696c4cde24",
   "lastOpenFiles": [
-    "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
-    "왼쪽 값(Left most)을 기준으로 정렬.png",
-    "DB/RealMySql/8. 인덱스/내림차순 인덱스.md",
-    "InnoDB 페이지 내에서 레코드들의 연결.png",
+    "2단계 인덱싱.md",
+    "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
+    "MySQL 기본 불용어 조회.png",
+    "MySQL n-gram 토큰 분해 예시 표.png",
+    "DB/RealMySql/8. 인덱스/R-Tree 인덱스.md",
+    "8.24특정 지점을 기준으로 가각 박스 이내의 위치를 검색.png",
+    "공간(T-Tree, Spatial) 인덱스 구조.png",
+    "트리 알고리즘(DB).md",
+    "공간(Spatial)데이터의 MBR.png",
+    "공간(Spatial) 데이터.png",
+    "최소 경계 상자 MBR.png",
+    "GEOMETRY 데이터 타입.png",
+    "물리량.md",
     "DB/RealMySql/8. 인덱스/8. 인덱스.md",
-    "img/8장 관련/다중 칼럼 인덱스.png",
-    "img/8장 관련/인덱스 정순(포워드)스캔과 인덱스 역순(백워드) 스캔.png",
-    "img/8장 관련/innoDB page directory 구조.png",
+    "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
+    "img/8장 관련/왼쪽 값(Left most)을 기준으로 정렬.png",
+    "DB/RealMySql/8. 인덱스/내림차순 인덱스.md",
+    "img/8장 관련/InnoDB 페이지 내에서 레코드들의 연결.png",
     "DB/RealMySql/8. 인덱스/인덱스.md",
     "DB/RealMySql/8. 인덱스/페이지.md",
-    "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
     "일단 생략.md",
-    "img/8장 관련/8.8인덱스를 이용한 레인지 스캔.png",
-    "img/8장 관련/인덱스 레인지 스캔 확인 명령어.png",
-    "img/8장 관련/인덱스 스킵 스캔.png",
     "DB/RealMySql/8. 인덱스/인덱스 스킵 스캔 이전의 상황에서 실행 계획 예시.md",
     "DB/RealMySql/8. 인덱스/인덱스 형태 예시.md",
-    "img/8장 관련/루스 인덱스 스캔(dept_name과 first_name 칼럼은 참조용으로 표시됨).png",
-    "img/8장 관련/인덱스 풀 스캔.png",
     "DB/RealMySql/8. 인덱스/선택도와 기수성.md",
     "DB/RealMySql/8. 인덱스/외래키.md",
     "DB/RealMySql/8. 인덱스/유니크 인덱스.md",
     "DB/RealMySql/8. 인덱스/클러스터링 인덱스.md",
     "DB/RealMySql/8. 인덱스/멀티 밸류 인덱스.md",
     "DB/RealMySql/8. 인덱스/함수 기반 인덱스.md",
-    "DB/RealMySql/8. 인덱스/R-Tree 인덱스.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
     "DB/RealMySql/Real MySQL.md",
     "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
@@ -197,8 +187,6 @@
     "DB/RealMySql/8. 인덱스",
     "공부 목록.md",
     "DB/RealMySql/6. 데이터 압축/테이블 스페이스.md",
-    "DB/RealMySql/7. 데이터 암호화/데이터 암호화.md",
-    "DB/RealMySql/6. 데이터 압축/6. 데이터 압축.md",
     "img/7장 관련",
     "DB/RealMySql/7. 데이터 암호화",
     "img/6장 관련",
