@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "14e930b1e35eab90",
+        "id": "946c063c88675260",
         "type": "tabs",
         "children": [
           {
-            "id": "999f33696c4cde24",
+            "id": "03df2fa071da4067",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
+                "file": "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
+                "file": "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
+                "file": "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md"
+                "file": "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md"
               }
             }
           }
@@ -147,53 +147,53 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "999f33696c4cde24",
+  "active": "03df2fa071da4067",
   "lastOpenFiles": [
-    "2단계 인덱싱.md",
-    "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
-    "MySQL 기본 불용어 조회.png",
-    "MySQL n-gram 토큰 분해 예시 표.png",
-    "DB/RealMySql/8. 인덱스/R-Tree 인덱스.md",
-    "8.24특정 지점을 기준으로 가각 박스 이내의 위치를 검색.png",
-    "공간(T-Tree, Spatial) 인덱스 구조.png",
-    "트리 알고리즘(DB).md",
-    "공간(Spatial)데이터의 MBR.png",
-    "공간(Spatial) 데이터.png",
-    "최소 경계 상자 MBR.png",
-    "GEOMETRY 데이터 타입.png",
-    "물리량.md",
+    "멀티 머지 정렬.md",
+    "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
+    "옵티마이저 정렬 처리 방법 표.png",
     "DB/RealMySql/8. 인덱스/8. 인덱스.md",
+    "데이터 웨어하우스.md",
+    "DB/RealMySql/Real MySQL.md",
+    "img/9장 관련",
+    "무제 폴더",
+    "DB/RealMySql/8. 인덱스/2단계 인덱싱.md",
+    "DB/RealMySql/9. 옵티마이저와 힌트",
+    "Common CS",
+    "Common CS/물리량.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL 엔진 레벨 잠금.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/InnoDB 스토리지 엔진 잠금.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션.md",
+    "DB/RealMySql/5. 트랜잭션과 잠금/스냅샷 격리수준(Snapshot isolation).md",
+    "DB/RealMySql/8. 인덱스/함수 기반 인덱스.md",
+    "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
+    "DB/RealMySql/8. 인덱스/R-Tree 인덱스.md",
     "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
-    "img/8장 관련/왼쪽 값(Left most)을 기준으로 정렬.png",
-    "DB/RealMySql/8. 인덱스/내림차순 인덱스.md",
-    "img/8장 관련/InnoDB 페이지 내에서 레코드들의 연결.png",
-    "DB/RealMySql/8. 인덱스/인덱스.md",
-    "DB/RealMySql/8. 인덱스/페이지.md",
-    "일단 생략.md",
     "DB/RealMySql/8. 인덱스/인덱스 스킵 스캔 이전의 상황에서 실행 계획 예시.md",
+    "DB/RealMySql/8. 인덱스/멀티 밸류 인덱스.md",
     "DB/RealMySql/8. 인덱스/인덱스 형태 예시.md",
     "DB/RealMySql/8. 인덱스/선택도와 기수성.md",
-    "DB/RealMySql/8. 인덱스/외래키.md",
-    "DB/RealMySql/8. 인덱스/유니크 인덱스.md",
-    "DB/RealMySql/8. 인덱스/클러스터링 인덱스.md",
-    "DB/RealMySql/8. 인덱스/멀티 밸류 인덱스.md",
-    "DB/RealMySql/8. 인덱스/함수 기반 인덱스.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/동시성 제어.md",
-    "DB/RealMySql/Real MySQL.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
+    "DB/RealMySql/8. 인덱스/인덱스.md",
+    "DB/RealMySql/6. 데이터 압축/6. 데이터 압축.md",
     "DB/RealMySql/4. 아키텍쳐/체인지 버퍼.md",
     "DB/RealMySql/8. 인덱스/디스크 읽기 방식.md",
+    "img/8장 관련/GEOMETRY 데이터 타입.png",
+    "img/8장 관련/최소 경계 상자 MBR.png",
+    "일단 생략.md",
+    "img/8장 관련/8.24특정 지점을 기준으로 가각 박스 이내의 위치를 검색.png",
+    "img/8장 관련/MySQL 기본 불용어 조회.png",
+    "img/8장 관련/MySQL n-gram 토큰 분해 예시 표.png",
+    "img/8장 관련/공간(T-Tree, Spatial) 인덱스 구조.png",
+    "img/8장 관련/공간(Spatial)데이터의 MBR.png",
+    "img/8장 관련/공간(Spatial) 데이터.png",
+    "img/8장 관련/왼쪽 값(Left most)을 기준으로 정렬.png",
     "img/8장 관련",
     "DB/RealMySql/8. 인덱스",
-    "공부 목록.md",
-    "DB/RealMySql/6. 데이터 압축/테이블 스페이스.md",
     "img/7장 관련",
     "DB/RealMySql/7. 데이터 암호화",
     "img/6장 관련",
-    "DB/RealMySql/6. 데이터 압축",
-    "img/5장 관련",
-    "DB/RealMySql/5. 트랜잭션과 잠금",
-    "img/4장 관련",
-    "img"
+    "DB/RealMySql/6. 데이터 압축"
   ]
 }
