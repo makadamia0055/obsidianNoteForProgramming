@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "03df2fa071da4067",
+            "id": "d9cd3c85068ac9c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JVM.md",
+                "file": "Method Area.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JVM.md",
+                "file": "Method Area.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JVM.md",
+                "file": "Method Area.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JVM.md"
+                "file": "Method Area.md"
               }
             }
           }
@@ -147,11 +147,32 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "03df2fa071da4067",
+  "active": "d9cd3c85068ac9c2",
   "lastOpenFiles": [
-    "Class Loader.md",
+    "메소드 영역의 클래스 저장 형식.png",
+    "Method Area.md",
+    "Runtime Data Area(Java).md",
+    "Heap Area(Java).md",
+    "Ternured Generation.md",
+    "Permanent Generation.md",
+    "Young Generation.md",
+    "힙 영역의 상세 구성.png",
+    "자바의 자료형과 힙 영역.png",
+    "Runtime Data Areas의 구조2.png",
+    "Stack Area(Java).md",
+    "Call Stack(Memory).md",
+    "Stack.md",
     "네이티브 코드.md",
+    "Heap(Memory).md",
+    "Runtime Data Areas의 구조.png",
     "JVM.md",
+    "Garbage Collector.md",
+    "JIT 컴파일러.md",
+    "img/Java 관련/jdk 관련/JIT컴파일러의 작동 예시.png",
+    "Execution Engine.md",
+    "인터프리터.md",
+    "img/Java 관련/jdk 관련/Java 실행 엔진 내의 인터프리터와 JIT 컴파일러.png",
+    "Class Loader.md",
     "JDK.md",
     "Java/Java.md",
     "Java/Java 관련 예상 면접 질문 정리.md",
@@ -160,40 +181,18 @@
     "img/Java 관련/jdk 관련/JVM의 내부구조.png",
     "JRE.md",
     "img/Java 관련/jdk 관련/자바의 컴파일 타임 환경과 런타임 환경(jvm).png",
-    "img/Java 관련/jdk 관련/JDK 디렉토리 구성요소 2.png",
-    "img/Java 관련/jdk 관련/jdk bin 디렉토리 구성요소.png",
-    "img/Java 관련/jdk 관련/JDK의 구성.png",
     "img/Java 관련",
     "공부 목록.md",
-    "img/real mysql 관련 이미지/10장 관련/히스토그램(싱글톤, 높이 균형)의 예시.png",
     "Java",
     "img/real mysql 관련 이미지",
     "img/real mysql 관련 이미지/10장 관련",
     "img/무제 파일.md",
     "Common CS/히스토그램(Histogram).md",
     "DB/RealMySql/시스템 딕셔너리.md",
-    "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
-    "DB/RealMySql/10. 실행계획/10. 실행 계획.md",
-    "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
-    "DB/RealMySql/8. 인덱스/선택도와 기수성.md",
-    "Common CS/데이터 웨어하우스.md",
     "DB/RealMySql/10. 실행계획",
-    "DB/RealMySql/8. 인덱스/8. 인덱스.md",
-    "DB/RealMySql/8. 인덱스/페이지.md",
-    "DB/RealMySql/8. 인덱스/B-Tree 인덱스.md",
-    "DB/RealMySql/8. 인덱스/멀티 밸류 인덱스.md",
-    "Common CS/멀티 머지 정렬.md",
-    "DB/RealMySql/8. 인덱스/인덱스 스킵 스캔 이전의 상황에서 실행 계획 예시.md",
-    "DB/RealMySql/8. 인덱스/전문 검색 인덱스.md",
-    "DB/RealMySql/8. 인덱스/클러스터링 인덱스.md",
-    "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
-    "DB/RealMySql/4. 아키텍쳐/쿼리 파서(Query Parser).md",
-    "img/real mysql 관련 이미지/9장 관련/옵티마이저 정렬 처리 방법 표.png",
     "img/real mysql 관련 이미지/9장 관련",
     "DB/RealMySql/9. 옵티마이저와 힌트",
     "Common CS",
-    "img/real mysql 관련 이미지/8장 관련/GEOMETRY 데이터 타입.png",
-    "img/real mysql 관련 이미지/8장 관련/최소 경계 상자 MBR.png",
     "img/real mysql 관련 이미지/8장 관련"
   ]
 }
