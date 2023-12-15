@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DB/RealMySql/10. 실행계획/10. 실행 계획.md",
+                "file": "JVM.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mvcc",
+                "query": "mrr",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DB/RealMySql/10. 실행계획/10. 실행 계획.md",
+                "file": "JVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DB/RealMySql/10. 실행계획/10. 실행 계획.md",
+                "file": "JVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DB/RealMySql/10. 실행계획/10. 실행 계획.md"
+                "file": "JVM.md"
               }
             }
           }
@@ -149,13 +149,33 @@
   },
   "active": "03df2fa071da4067",
   "lastOpenFiles": [
-    "시스템 딕셔너리.md",
+    "Class Loader.md",
+    "네이티브 코드.md",
+    "JVM.md",
+    "JDK.md",
+    "Java/Java.md",
+    "Java/Java 관련 예상 면접 질문 정리.md",
+    "img/Java 관련/jdk 관련/JDK 디렉토리 구성 요소.png",
+    "img/Java 관련/jdk 관련",
+    "img/Java 관련/jdk 관련/JVM의 내부구조.png",
+    "JRE.md",
+    "img/Java 관련/jdk 관련/자바의 컴파일 타임 환경과 런타임 환경(jvm).png",
+    "img/Java 관련/jdk 관련/JDK 디렉토리 구성요소 2.png",
+    "img/Java 관련/jdk 관련/jdk bin 디렉토리 구성요소.png",
+    "img/Java 관련/jdk 관련/JDK의 구성.png",
+    "img/Java 관련",
+    "공부 목록.md",
+    "img/real mysql 관련 이미지/10장 관련/히스토그램(싱글톤, 높이 균형)의 예시.png",
+    "Java",
+    "img/real mysql 관련 이미지",
+    "img/real mysql 관련 이미지/10장 관련",
+    "img/무제 파일.md",
+    "Common CS/히스토그램(Histogram).md",
+    "DB/RealMySql/시스템 딕셔너리.md",
+    "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
     "DB/RealMySql/10. 실행계획/10. 실행 계획.md",
     "DB/RealMySql/4. 아키텍쳐/4. 아키텍쳐.md",
-    "히스토그램(싱글톤, 높이 균형)의 예시.png",
-    "히스토그램(Histogram).md",
     "DB/RealMySql/8. 인덱스/선택도와 기수성.md",
-    "DB/RealMySql/9. 옵티마이저와 힌트/9. 옵티마이저와 힌트.md",
     "Common CS/데이터 웨어하우스.md",
     "DB/RealMySql/10. 실행계획",
     "DB/RealMySql/8. 인덱스/8. 인덱스.md",
@@ -168,32 +188,12 @@
     "DB/RealMySql/8. 인덱스/클러스터링 인덱스.md",
     "DB/RealMySql/4. 아키텍쳐/InnoDB.md",
     "DB/RealMySql/4. 아키텍쳐/쿼리 파서(Query Parser).md",
-    "img/9장 관련/옵티마이저 정렬 처리 방법 표.png",
-    "DB/RealMySql/Real MySQL.md",
-    "img/9장 관련",
-    "무제 폴더",
-    "DB/RealMySql/8. 인덱스/2단계 인덱싱.md",
+    "img/real mysql 관련 이미지/9장 관련/옵티마이저 정렬 처리 방법 표.png",
+    "img/real mysql 관련 이미지/9장 관련",
     "DB/RealMySql/9. 옵티마이저와 힌트",
     "Common CS",
-    "Common CS/물리량.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL의 격리 수준.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/MySQL 엔진 레벨 잠금.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/InnoDB 스토리지 엔진 잠금.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/5. 트랜잭션과 잠금.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/트랜잭션.md",
-    "DB/RealMySql/5. 트랜잭션과 잠금/스냅샷 격리수준(Snapshot isolation).md",
-    "img/8장 관련/GEOMETRY 데이터 타입.png",
-    "img/8장 관련/최소 경계 상자 MBR.png",
-    "img/8장 관련/8.24특정 지점을 기준으로 가각 박스 이내의 위치를 검색.png",
-    "img/8장 관련/MySQL 기본 불용어 조회.png",
-    "img/8장 관련/MySQL n-gram 토큰 분해 예시 표.png",
-    "img/8장 관련/공간(T-Tree, Spatial) 인덱스 구조.png",
-    "img/8장 관련/공간(Spatial)데이터의 MBR.png",
-    "img/8장 관련/공간(Spatial) 데이터.png",
-    "img/8장 관련",
-    "DB/RealMySql/8. 인덱스",
-    "img/7장 관련",
-    "DB/RealMySql/7. 데이터 암호화",
-    "img/6장 관련"
+    "img/real mysql 관련 이미지/8장 관련/GEOMETRY 데이터 타입.png",
+    "img/real mysql 관련 이미지/8장 관련/최소 경계 상자 MBR.png",
+    "img/real mysql 관련 이미지/8장 관련"
   ]
 }
