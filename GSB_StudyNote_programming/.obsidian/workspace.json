@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Method Area.md",
+                "file": "Java/JDK/JVM/Stack Area(Java).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d84e1d8cdac949fd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stack Frame(java).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e23d821fae8e8b8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stack Frame(java).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aaf8160c34f596fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stack Frame(java).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Method Area.md",
+                "file": "Stack Frame(java).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Method Area.md",
+                "file": "Stack Frame(java).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Method Area.md"
+                "file": "Stack Frame(java).md"
               }
             }
           }
@@ -147,52 +187,53 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9cd3c85068ac9c2",
+  "active": "d84e1d8cdac949fd",
   "lastOpenFiles": [
-    "메소드 영역의 클래스 저장 형식.png",
-    "Method Area.md",
-    "Runtime Data Area(Java).md",
-    "Heap Area(Java).md",
-    "Ternured Generation.md",
-    "Permanent Generation.md",
-    "Young Generation.md",
-    "힙 영역의 상세 구성.png",
-    "자바의 자료형과 힙 영역.png",
-    "Runtime Data Areas의 구조2.png",
-    "Stack Area(Java).md",
-    "Call Stack(Memory).md",
-    "Stack.md",
-    "네이티브 코드.md",
-    "Heap(Memory).md",
-    "Runtime Data Areas의 구조.png",
-    "JVM.md",
-    "Garbage Collector.md",
-    "JIT 컴파일러.md",
+    "Stack Frame.md",
+    "Stack Frame(java).md",
+    "Java/JDK/JVM/Stack Area(Java).md",
+    "Java/JDK/JVM/JVM.md",
+    "Common CS/Call Stack(Memory).md",
+    "Thread.md",
+    "Thread(java).md",
+    "Java/JDK/JVM/Runtime Constant Pool.md",
+    "Common CS/Symbolic Reference.md",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Area의 스레드 별 메모리 할당.png",
+    "Java/JDK/JVM/Runtime Data Area(Java).md",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/자바의 자료형과 힙 영역.png",
+    "Java/JDK/JVM/Class Loader.md",
+    "Common CS/Reference Data Type.md",
+    "Java/JDK/JDK.md",
+    "Java/JDK",
+    "Java/JDK/JVM/Heap Area(Java).md",
+    "Common CS/네이티브 코드.md",
+    "Java/JDK/JVM",
+    "Common CS/인터프리터.md",
+    "Java/메서드 데이터.md",
+    "Common CS/Symbolic.md",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Areas의 구조.png",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/메소드 영역의 클래스 저장 형식.png",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련",
+    "Java/JDK/JVM/Method Area.md",
+    "Java/JDK/JVM/Ternured Generation.md",
+    "Java/JDK/JVM/Permanent Generation.md",
+    "Java/JDK/JVM/Young Generation.md",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/힙 영역의 상세 구성.png",
+    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Areas의 구조2.png",
+    "Common CS/Stack.md",
+    "Common CS/Heap(Memory).md",
+    "Java/JDK/JVM/Garbage Collector.md",
+    "Common CS/JIT 컴파일러.md",
     "img/Java 관련/jdk 관련/JIT컴파일러의 작동 예시.png",
-    "Execution Engine.md",
-    "인터프리터.md",
     "img/Java 관련/jdk 관련/Java 실행 엔진 내의 인터프리터와 JIT 컴파일러.png",
-    "Class Loader.md",
-    "JDK.md",
-    "Java/Java.md",
-    "Java/Java 관련 예상 면접 질문 정리.md",
     "img/Java 관련/jdk 관련/JDK 디렉토리 구성 요소.png",
     "img/Java 관련/jdk 관련",
     "img/Java 관련/jdk 관련/JVM의 내부구조.png",
-    "JRE.md",
-    "img/Java 관련/jdk 관련/자바의 컴파일 타임 환경과 런타임 환경(jvm).png",
     "img/Java 관련",
-    "공부 목록.md",
     "Java",
     "img/real mysql 관련 이미지",
     "img/real mysql 관련 이미지/10장 관련",
-    "img/무제 파일.md",
-    "Common CS/히스토그램(Histogram).md",
-    "DB/RealMySql/시스템 딕셔너리.md",
     "DB/RealMySql/10. 실행계획",
-    "img/real mysql 관련 이미지/9장 관련",
-    "DB/RealMySql/9. 옵티마이저와 힌트",
-    "Common CS",
-    "img/real mysql 관련 이미지/8장 관련"
+    "img/real mysql 관련 이미지/9장 관련"
   ]
 }

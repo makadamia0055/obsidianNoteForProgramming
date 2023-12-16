@@ -63,3 +63,8 @@ tags:
 - [JVM(위키피디아)](https://ko.wikipedia.org/wiki/%EC%9E%90%EB%B0%94_%EA%B0%80%EC%83%81_%EB%A8%B8%EC%8B%A0)
 - [JVM이란?](https://coding-factory.tistory.com/827)
 - [JVM 내부 구조와 메모리 구조](https://coding-factory.tistory.com/828)
+- [Java (JVM) Memory Model - Memory Management in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/java-jvm-memory-model-memory-management-in-java)
+- [JVM에 관하여 - Part 3, Run-Time Data Area (techcourse.co.kr)](https://tecoble.techcourse.co.kr/post/2021-08-09-jvm-memory/)
+- [The JVM Run-Time Data Areas | Baeldung](https://www.baeldung.com/java-jvm-run-time-data-areas
+- [차근차근 알아보는 Java 프로그램 실행 과정](https://velog.io/@ariul-dev/%EC%B0%A8%EA%B7%BC%EC%B0%A8%EA%B7%BC-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-Java-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%8B%A4%ED%96%89-%EA%B3%BC%EC%A0%95)
+- 

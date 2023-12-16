@@ -19,6 +19,8 @@ aliases:
 		- [[Stack Area(Java)]]
 		- [[PC Register(memory area)]]
 		- [[Native Method Stack]]
+![[Runtime Data Area의 스레드 별 메모리 할당.png]]
+
 ![[Runtime Data Areas의 구조2.png]]
 ### [[Method Area]]
 ![[Method Area]]
