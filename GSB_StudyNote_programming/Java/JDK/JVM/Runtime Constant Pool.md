@@ -1,6 +1,7 @@
 ---
 aliases:
   - 런타임 상수 풀
+  - Constant Pool
 tags:
   - memory
   - jvm
@@ -33,7 +34,8 @@ tags:
 	- boolean, short 및 byte 같은 유형들은 풀에서 정수 상수로 표시됨.
 - [출처](https://www.baeldung.com/jvm-constant-pool)
 
-
+## Constant Pool Resolution
+- Resolution 이란 [[Symbolic Reference]] 를 [[JVM]] 에서 실제 접근할 수 있는 Direct Reference 로 변경하는 것을 말한다.
 
 
 # 레퍼런스 

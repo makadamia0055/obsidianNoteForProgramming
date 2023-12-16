@@ -35,8 +35,8 @@ aliases:
 
 
 ---
-### [[Stack Area]]
-![[Stack Area]]
+### [[Stack Area(Java)]]
+![[Stack Area(Java)]]
 
 
 ### [[PC Register(memory area)|PC Register]]
