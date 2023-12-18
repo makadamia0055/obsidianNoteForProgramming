@@ -17,5 +17,8 @@ aliases:
 	- Java 힙의 외부이며, Off-Heap 메모리와 동의어
 - native memory가 direct buffer memory를 사용할 수 있다.
 
-# 자바에서 Native Memory란 무엇인가?
+## 자바에서 Native Memory란 무엇인가?
 - [[understanding java native memory]]
+
+## OS 탐구: Java 네이티브 메모리
+- [[OS 탐구 - Java 네이티브 메모리]]

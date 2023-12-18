@@ -24,14 +24,13 @@ tags:
 	- 다시 말해, [[new 연산자]]로 생성된 객체와 배열이 생성되는 영역이다. 
 - [[참조 타입]]의 데이터들이 저장되는 영역이기도 하다. 
 ![[자바의 자료형과 힙 영역.png]]
-- 자바에서 힙 영역의 [[메모리 관리]]는 [[Garbage Collector|GC]]가 담당한다.
+- 자바에서 힙 영역의 [[메모리 관리]]는 [[Garbage Collection(java)|GC]]가 담당한다.
 
 ## Heap Area의 상세 구조
-- Heap Area는 효율적인 [[Garbage Collector|GC]]를 위해 3 가지 영역으로 나뉜다.
-- ![[힙 영역의 상세 구성.png]]
+- Heap Area는 효율적인 [[Garbage Collection(java)|GC]]를 위해 2가지 영역으로 나누어 관리한다.
 	- [[Young Generation]]
 	- [[Ternured Generation]]
-	- [[Permanent Generation]]
+![[Java 8 이후 Heap 구조.png]]
 
 ### Young Generation
 ![[Young Generation]]
@@ -41,8 +40,16 @@ tags:
 ![[Ternured Generation]]
 
 
-### Permanent Generation
-![[Permanent Generation]]
+## Java 8 이전의 Heap 구조
+- Java 7 버전 까지는 Heap에 (JVM Heap과 구분되는) [[Permanent Generation(Java)|PermGen]] 영역이 존재하였다.
+- ![[힙 영역의 상세 구성(레거시).png]]
+- 이 PermGen 영역은 후술할 단점들 때문에 [[Java version 8|java 8]]부터 [[Deprecated]]되고, [[Metaspace]]로 교체되었다.
+	- [[Metaspace]]는 [[Native Memory(Java)]]에 존재하는 영역이다.
+- 다만 PermGen에서 담당하던 것들 중 [[String Pool]]은 Heap으로 넘어가게 되었다. 
+
+### [[Permanent Generation(Java)|PermGen]] 영역
+![[Permanent Generation(Java)|PermGen]]
+
 
 
 # Heap Area의 사용 기간

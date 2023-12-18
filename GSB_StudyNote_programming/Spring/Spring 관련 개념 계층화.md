@@ -1,0 +1,56 @@
+---
+tags:
+  - architecture
+  - Spring
+  - Subject_Tree
+---
+GPT 3.5로 만든 개념 트리
+
+- [[Spring|Spring Framework]]
+	- [[IoC Container]]
+		- [[Bean(Spring)]] 관리
+		- [[DI|의존성 주입]]
+	- [[AOP|Aspect-Oriented Programming]]
+		- [[Aspect(AOP)]]
+		- [[Advice(AOP)]], [[Pointcut(AOP)]], [[Joinpoint(AOP)]]
+	- [[MVC|Spring MVC]]
+		- [[Controller(MVC)]]
+		- [[Model(MVC)]]
+		- [[VIew(MVC)]]
+		- [[레이어드 아키텍처]]
+			- [[Prensentation Layer(Spring)]]
+				- [[Servlet]]
+					- [[Dispatcher Servlet]]
+				- [[Interceptor(Spring)]]
+			- [[Business Layer(Spring)]]
+				- Service 클래스, Component
+			- 데이터 액세스 계층(Data Access Layer)
+	- [[Data Access(Spring)|데이터 액세스]]
+		- [[JDBC Template]]
+		- [[ORM]]
+			- [[Hibernate]], [[MyBatis]]
+	- [[Transaction|트랜잭션]] 관리
+		- [[선언적 트랜잭션]]
+		- [[프로그래밍 방식 트랜잭션]]
+	- [[Spring Boot]]
+		- [[Auto Configuration(SpringBoot)]]
+		- 내장 웹서버([[Tomcat]])
+	- [[Spring Security]]
+		- [[Authentication(Spring Security)|인증]]
+		- [[Authorization(Spring Security)|권한 부여]]
+	- [[Spring Cloud]]
+		- 마이크로서비스 아키텍처
+		- 서비스 디스커버리
+		- 분산 구성 관리
+	- [[Spring Batch|배치 처리]]
+		- Job, Stem, Item
+		- 청크 기반 처리
+	- [[Spring Data]]
+		- [[JPA]]
+		- [[MongoDB]], [[Redis]] 등과 통합
+	- 스프링 통합([[Spring Intergration]])
+		- 엔터프라이즈 통합 패턴
+		- 통합 플로우
+	- [[Testing(Spring)|테스트(Testing)]]
+		- [[JUnit]], [[TestNG]]
+		- [[Mockito]], [[Spring Test]]

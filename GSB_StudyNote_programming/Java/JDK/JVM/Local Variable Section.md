@@ -7,7 +7,7 @@ tags:
 - Local Variable Section은 0부터 시작하는 array 형 인덱스를 가진다.
 	- 해당 인덱스는 [[Parameters|매개변수]] value부터 할당 된다.
 	- [[Local variables|지역변수]]는 순서가 정해져 있지 않고, 사용되지 않으면 할당되지 않을 수도 있다. 
-	- 매개변수나 지역변수가 [[Primitive Type]]인 경우는 고정된 크기로 할당된다.
+	- 매개변수나 지역변수가 [[Primitive Type(java)]]인 경우는 고정된 크기로 할당된다.
 	- 하지만 String 이나 Array 같은 [[객체]]일 경우 가변 크기이므로 Reference를 갖는다.
 
 ## Local Variable Section의 구조 예시

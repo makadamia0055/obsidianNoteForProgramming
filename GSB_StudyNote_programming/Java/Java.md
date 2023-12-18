@@ -6,5 +6,8 @@ tags:
 ---
 # Java의 구성
 
-[[JDK]]
-[[JVM]]
+- [[JDK]]
+	- [[JRE]]
+	- [[JVM]]
+
+

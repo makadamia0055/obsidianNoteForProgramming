@@ -240,7 +240,7 @@ Permanent Generation(Perm/Perm Gen)이라고 하는 메인 힙과 별도로 또 
 - [[Metaspace]]
 - 스레드 메모리([[Stack Area(Java)|stack]] 메모리)
 - Code Cache
-- [[Garbage Collector|가비지 컬렉터]] 데이터
+- [[Garbage Collection(java)|가비지 컬렉터]] 데이터
 
 # 메타스페이스
 
@@ -249,23 +249,23 @@ Permanent Generation(Perm/Perm Gen)이라고 하는 메인 힙과 별도로 또 
 
 기본적으로 메타공간은 클래스 공간과 비클래스 공간의 두 부분으로 구성됩니다.
 
-## 수업 공간
+## The Class Space
 
-[압축된 클래스 포인터](https://stuefe.de/posts/metaspace/what-is-compressed-class-space/) 사용으로 인해 압축 클래스 공간이라고도 합니다. 이 공간에는 수업 관련 메타데이터가 포함되어 있습니다.
+[압축된 클래스 포인터](https://stuefe.de/posts/metaspace/what-is-compressed-class-space/) 사용으로 인해 압축 클래스 공간(compressed class space)이라고도 합니다. 이 공간에는 class 관련 메타데이터가 포함되어 있습니다.
 
 - [“Klass” 구조](https://openjdk.java.net/groups/hotspot/docs/StorageManagement.html) — 클래스의 내부 런타임 표현을 포함합니다
 - [Vtable](https://wiki.openjdk.java.net/display/HotSpot/VirtualCalls) — 클래스에 있는 각 가상 메서드에 대한 메타데이터가 포함된 테이블입니다. (Java에서는 재정의 가능한 모든 메서드가 가상입니다.)
 - The `Itable` — 상속된 인터페이스 메서드를 참조한다는 점을 제외하면 Vtable과 유사합니다.
 - Oopmap - 클래스의 객체 참조 데이터 멤버 위치를 저장하는 구조입니다. (힙 GC 시 메모리 참조를 업데이트하기 위해)
 
-## 비계급 공간
+## the Non-Class Space
 
 이 공간에는 다음과 같은 모든 것이 포함되어 있습니다.
 
 - [상수 풀](https://www.baeldung.com/jvm-constant-pool) — 기호 테이블과 유사한 구성입니다. JVM이 클래스 코드를 실행할 수 있도록 하는 상수가 포함되어 있습니다.
 - 메서드 메타데이터 — 클래스에 있는 메서드의 내부 표현 — [method_info](https://docs.oracle.com/javase/specs/jvms/se8/html/jvms-4.html#jvms-4.6) 구조와 동일한 런타임입니다. 메소드 바이트코드, 예외 테이블 등을 포함합니다.
-- 메소드 카운터 — JIT 컴파일러 최적화에 사용됩니다.
-- 주석 메타데이터
+- 메소드 카운터(Method Counters) — JIT 컴파일러 최적화에 사용됩니다.
+- Annotation metadata
 - 그리고 더.
 
 앞서 언급한 [압축 클래스 포인터](https://stuefe.de/posts/metaspace/what-is-compressed-class-space/)가 비활성화된 경우 모든 메모리가 하나의 전역 메타스페이스 컨텍스트에 저장된다는 점을 언급할 가치가 있습니다. 압축된 수업 공간이 없습니다.
@@ -294,7 +294,7 @@ Metaspace와 PermGen에는 몇 가지 주요 차이점이 있습니다.
 JVM의 컨텍스트에서 작동하는 각 스레드에는 자체 메모리, 즉 자체 스택이 있습니다. 이름에서 알 수 있듯이 메모리는 LIFO 데이터 구조로 구성됩니다. 즉, 새로운 데이터 조각이 맨 위에 추가되고 먼저 액세스됩니다.
 
 스택에는 스레드가 호출했지만 실행을 완료하지 못한 모든 메서드가 포함되어 있으며, 이러한 메서드 내부의 모든 지역 변수도 포함됩니다.  
-로컬 변수가 프리미티브인 경우 - 스택에 완전히 저장됩니다(따라서 다른 스레드에는 보이지 않습니다). 객체인 경우 해당 참조만 저장되고 실제 값은 힙에 저장됩니다.
+로컬 변수가  primitive인 경우 - 스택에 완전히 저장됩니다(따라서 다른 스레드에는 보이지 않습니다). 객체인 경우 해당 참조만 저장되고 실제 값은 힙에 저장됩니다.
 
 스택 메모리와 관련된 가장 친숙한 문제 중 하나는 호출 스택이 할당된 것보다 더 많은 메모리를 사용할 때 발생하는 StackOverflow 오류입니다. 일반적으로 너무 많거나 무한한 재귀 호출로 인해 발생합니다.
 
@@ -309,7 +309,7 @@ JVM의 컨텍스트에서 작동하는 각 스레드에는 자체 메모리, 즉
 
 JVM 기반 애플리케이션은 3단계 프로세스를 통해 실행됩니다.
 
-1. 이는 해당 언어(Java, Kotlin, Groovy 등)에서 바이트코드로 컴파일됩니다.
+1. 해당 언어(Java, Kotlin, Groovy 등)에서 바이트코드로 컴파일됩니다.
 2. 그런 다음 JVM 인터프리터는 컴파일된 바이트코드를 가져와 기계어 코드로 해석합니다.
 3. [JIT 컴파일러](https://en.wikipedia.org/wiki/Just-in-time_compilation)는 성능 향상을 위해 런타임 중에 추가 최적화를 수행합니다.
 

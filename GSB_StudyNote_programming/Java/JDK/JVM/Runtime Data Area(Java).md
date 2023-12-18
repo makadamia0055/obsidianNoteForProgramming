@@ -11,7 +11,7 @@ aliases:
 - 런타임 데이터 영역은 아래와 같은 요소로 구성되어 있다. 
 ![[Runtime Data Areas의 구조.png]]
 - 상기 구성 요소들은 스레드 간 공유 가능한 공통 영역과 스레드 마다 할당 되는 스레드 영역으로 구분 할 수 있다. 
-	- 공통 영역(=모든 스레드 간 공유 가능한 영역, [[Garbage Collector|GC]]의 대상)
+	- 공통 영역(=모든 스레드 간 공유 가능한 영역, [[Garbage Collection(java)|GC]]의 대상)
 		- [[Method Area]]
 			- 메소드 영역 내의 [[Runtime Constant Pool]]
 		- [[Heap Area(Java)|Heap Area]]

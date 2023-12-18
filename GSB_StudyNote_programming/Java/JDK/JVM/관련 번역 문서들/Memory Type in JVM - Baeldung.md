@@ -26,7 +26,7 @@ The JVM and native libraries use native memory to perform actions that can’t b
 	- Off-Heap 메모리와 동의어이다.
 - 네이티브 메모리의 데이터는 JVM 외부에 있으므로 데이터를 읽고 쓰기 위해 [[직렬화]]를 수행해야 한다.
 	- 성능은 버퍼, 직렬화 프로세스 및 디스크 공간에 따라 달라진다.
-- 또한 JVM 외부에 배치되기 때문에 [[Garbage Collector|GC]]에 의해 해제되지 않는다.
+- 또한 JVM 외부에 배치되기 때문에 [[Garbage Collection(java)|GC]]에 의해 해제되지 않는다.
 - JVM은 native memory 내부에 스레드 스택, 내부 데이터 구조, 메모리 매핑된 파일을 저장한다.
 - JVM과 native libraries는 Native memory를 사용하여 Java에서 완전히 수행할 수 없는 작업들([[OS]]나 하드웨어 리소스에 액세스 하는 것)을 수행한다.
 

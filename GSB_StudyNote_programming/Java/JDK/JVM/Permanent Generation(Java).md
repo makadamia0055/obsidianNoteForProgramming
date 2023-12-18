@@ -15,7 +15,7 @@ aliases:
 ## PermGen 의 구성
 - Permanent Generation은 주 메모리 [[Heap Area(Java)|Heap Area]]과 분리된 특수 힙 공간이었다.
 - JVM은 PermGen에 모든 정적 컨텐츠를 저장했다.
-	- 모든 [[static method]], [[Primitive Type]] 변수, 정적 개체에 대한 참조가 포함된다.
+	- 모든 [[static method]], [[Primitive Type(java)]] 변수, 정적 개체에 대한 참조가 포함된다.
 	- 또한 바이트 코드, 이름 및 JIT 정보에 대한 데이터가 포함되어 있었다.
 	- [[String Pool]] 또한 Java 7까지는 PermGen에 속해 있었다. 
 
@@ -29,7 +29,7 @@ aliases:
 			- 32bit에서는 64MB
 			- 64bit에서는 84MB
 - 메모리 크기가 제한되어 있기 때문에 PermGen은 [[OutOfMemory]] 에러 생성을 일으켰다.
-	- [[Class Loader]]가 제대로 [[Garbage Collector|GC]] 되지 않아 [[Memory Leak]]가 발생했다.
+	- [[Class Loader]]가 제대로 [[Garbage Collection(java)|GC]] 되지 않아 [[Memory Leak]]가 발생했다.
 - 이러한 단점들로 결국 [[Java version 8|java 8]]부터 [[Metaspace]]로 대체된다.
 	- 다만, 기존 Perm 영역에 존재하던 Static Object는 Heap 영역으로 옮겨져서 GC의 대상이 최대한 될 수 있도록 하였다.
 

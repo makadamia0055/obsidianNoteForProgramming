@@ -9,7 +9,7 @@ tags:
 	- 이러한 구조를 통해 JVM은 자바 코드를 실행하기 위한 표준 인터페이스를 제공하고, 자바 코드가 다양한 운영체제 및 하드웨어 환경에서 동작할 수 있도록 한다.
 		- JVM은 플랫폼에 독립적인 Java 프로그램을 가능하게 하지만, 특정 환경에 대한 JVM 자체는 플랫폼 종속적이다.
 			- 하나의 추상화 계층으로서 기능한다.
-	- 추가적으로 JVM은 [[Garbage Collector]]를 통한 메모리 관리나 스레드 관리 등을 수행함.
+	- 추가적으로 JVM은 [[Garbage Collection(java)]]를 통한 메모리 관리나 스레드 관리 등을 수행함.
 ![[자바의 컴파일 타임 환경과 런타임 환경(jvm).png]]
 - 다만, 위 그림은 [[Class Loader|클래스 로더]]가 JVM 바깥에 존재한다는 식으로 그려 놓았는데, 클래스 로더는 JVM에 속한다.
 # JVM의 동작 방식
@@ -26,7 +26,7 @@ tags:
 - JVM은 크게 아래와 같이 구성되어 있다.
 	- [[Class Loader]]
 	- [[Execution Engine]]
-	- [[Garbage Collector]]
+	- [[Garbage Collection(java)]]
 	- [[Runtime Data Area(Java)|Runtime Data Area]]
 
 ## JVM의 내부 구조 : [[Class Loader]]
@@ -35,8 +35,8 @@ tags:
 ## JVM의 내부 구조 : [[Execution Engine]]
 ![[Execution Engine]]
 
-## JVM의 내부 구조 : [[Garbage Collector]]
-![[Garbage Collector]]
+## JVM의 내부 구조 : [[Garbage Collection(java)]]
+![[Garbage Collection(java)]]
 
 
 ## JVM의 내부 구조 : [[Runtime Data Area]]
