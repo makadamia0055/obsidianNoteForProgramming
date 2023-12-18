@@ -13,14 +13,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Native Method Stack.md",
+                "file": "Java/JDK/JVM/JVM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "663fc08ab43bd896",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM의 메모리 유형.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c20931c3773e48ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JVM 메모리 모델의 이해 - 힙과 비힙.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f31df14e2a737c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Memory Type in JVM - Baeldung.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98231d04d1fbac5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Permanent Generation(Java).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Native Method Stack.md",
+                "file": "JVM 메모리 모델의 이해 - 힙과 비힙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Native Method Stack.md",
+                "file": "JVM 메모리 모델의 이해 - 힙과 비힙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Native Method Stack.md"
+                "file": "JVM 메모리 모델의 이해 - 힙과 비힙.md"
               }
             }
           }
@@ -147,12 +200,25 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d9cd3c85068ac9c2",
+  "active": "c20931c3773e48ee",
   "lastOpenFiles": [
-    "java 8 이전의 Permanent generation.png",
-    "Native Method Stack.md",
+    "JVM의 메모리 유형.md",
+    "JVM 메모리 모델의 이해 - 힙과 비힙.md",
+    "JVM 동작 과정.png",
+    "Native Memory(Java).md",
+    "Permanent Generation(Java).md",
+    "Metaspace.md",
+    "Memory Type in JVM - Baeldung.md",
+    "understanding java native memory.md",
     "Java/JDK/JVM/JVM.md",
+    "img/Java 관련/jdk 관련/JVM의 내부구조.png",
+    "Native Method Stack.md",
+    "Java version 8.md",
+    "Native Method 수행과 Stack.png",
     "PC Register(memory area).md",
+    "API.md",
+    "Java/Java.md",
+    "java 8 이전의 Permanent generation.png",
     "Java/JDK/JVM/Runtime Data Area(Java).md",
     "Java/JDK/JVM/Stack Area(Java).md",
     "Stack내의 push pop구조와 스택 프레임.png",
@@ -169,24 +235,12 @@
     "Primitive Type.md",
     "Parameters.md",
     "Local variables.md",
-    "메서드.md",
-    "Common CS/Call Stack(Memory).md",
-    "Thread.md",
-    "Thread(java).md",
     "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Area의 스레드 별 메모리 할당.png",
     "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/자바의 자료형과 힙 영역.png",
-    "Java/JDK/JVM/Class Loader.md",
-    "Common CS/Reference Data Type.md",
-    "Java/JDK/JDK.md",
     "Java/JDK",
-    "Java/JDK/JVM/Heap Area(Java).md",
-    "Common CS/네이티브 코드.md",
     "Java/JDK/JVM",
     "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Areas의 구조.png",
-    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/메소드 영역의 클래스 저장 형식.png",
     "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련",
-    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/힙 영역의 상세 구성.png",
-    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/Runtime Data Areas의 구조2.png",
     "img/Java 관련/jdk 관련",
     "img/Java 관련",
     "Java",
