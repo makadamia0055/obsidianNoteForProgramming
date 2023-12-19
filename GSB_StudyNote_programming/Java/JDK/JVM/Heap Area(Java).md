@@ -30,6 +30,9 @@ tags:
 - Heap Area는 효율적인 [[Garbage Collection(java)|GC]]를 위해 2가지 영역으로 나누어 관리한다.
 	- [[Young Generation]]
 	- [[Ternured Generation]]
+
+### Heap Area의 설계 원칙
+- Heap영역은 효율적인 메모리 관리를 위해, [[Week Generational Hypothesis|약한 세대 가설]]에 기반해서 설계되었다.
 ![[Java 8 이후 Heap 구조.png]]
 
 ### Young Generation
@@ -43,7 +46,7 @@ tags:
 ## Java 8 이전의 Heap 구조
 - Java 7 버전 까지는 Heap에 (JVM Heap과 구분되는) [[Permanent Generation(Java)|PermGen]] 영역이 존재하였다.
 - ![[힙 영역의 상세 구성(레거시).png]]
-- 이 PermGen 영역은 후술할 단점들 때문에 [[Java version 8|java 8]]부터 [[Deprecated]]되고, [[Metaspace]]로 교체되었다.
+- 이 PermGen 영역은 후술할 단점들 때문에 [[Java 8|java 8]]부터 [[Deprecated]]되고, [[Metaspace]]로 교체되었다.
 	- [[Metaspace]]는 [[Native Memory(Java)]]에 존재하는 영역이다.
 - 다만 PermGen에서 담당하던 것들 중 [[String Pool]]은 Heap으로 넘어가게 되었다. 
 
@@ -54,3 +57,7 @@ tags:
 
 # Heap Area의 사용 기간
 [[일단 생략]]
+
+
+## 레퍼런스
+[GC- inpa blog](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)

@@ -4,4 +4,5 @@ tags:
   - java
 aliases:
   - java 8
+  - JDK 8
 ---

@@ -21,7 +21,7 @@ aliases:
 	- 따라서 어플리케이션의 사용성을 유지하면서 효율적이게 GC를 실행하는 최적화 작업이 개발자의 숙제가 된다.
 		- 이러한 최적화 작업을 GC 튜닝이라고 한다. 
 
-# GC의 동작 과정
+# GC의 동작 원리
 
 ## GC의 대상이 되는 객체들
 ![[Unreachable한 객체와 GC.png]]
@@ -34,23 +34,44 @@ aliases:
 ## [[Mark And Sweep]]
 ![[Mark And Sweep]]
 
-## Heap에서의 GC 과정
-### Heap의 구조
+# Heap에서의 GC 과정
+![[Heap에서 GC 과정(java).png]]
+### [[Heap Area(Java)#Heap Area의 상세 구조|Heap Area의 구조]]
+- [[JVM]]에서 [[Heap Area(Java)|Heap Area]]는 동적으로 [[Reference|레퍼런스]] 데이터가 저장되는 공간으로, GC의 대상이 되는 공간이다. 
+	- [[Heap Area(Java)|Heap Area]]은 처음 설계 될 때 [[Week Generational Hypothesis]]를 전제하고 설계 되었다.
+		- 대부분의 객체는 일회성이며, 메모리에 오래 남아있는 경우는 드물다는 것.
+- 이러한 특성을 이용해 [[JVM]] 개발자들은 보다 효율적인 메모리 관리를 위해, 객체의 생존 기간에 따라 물리적인 Heap 영역을 나누게 되었고, 아래와 같은 두 가지 영역으로 설계 하였다.
+	-  [[Young Generation]]
+		- Young Generation은 다시 3가지 영역으로 나뉜다.
+			- [[Eden Space(java)]]
+			- 2개의 [[Survivor Spaces(java)]]
+	- [[Ternured Generation|Old Generation]]
+- JVM에서는 이렇게 [[Heap Area(Java)|힙]] 영역을 구분하고, 각 영역마다 별도의 GC 과정을 두어 효율적으로 GC를 실행한다.
+	- 각 영역 별로 일어나는 GC는 다음과 같다.
+		- [[Young Generation]] : [[Minor GC(java)|Minor GC]]
+		- [[Ternured Generation|Old Generation]] : [[Major GC(java)|Major GC]]
 
-### Minor GC
+### [[Minor GC(java)|Minor GC]]
+![[Minor GC(java)|Minor GC]]
 
+### [[Major GC(java)|Major GC]] 
+![[Major GC(java)|Major GC]]
 
-### Major GC
+### [[Full GC(java)|Full GC]]
+![[Full GC(java)|Full GC]]
 
+# [[GC의 구현 알고리즘 유형]]
+![[GC의 구현 알고리즘 유형]]
 
-# GC 알고리즘
-
-
-[[일단 생략]]
 
 ## 레퍼런스
-[GC 동작 원리와 알고리즘 총정리- inpa 블로그](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
-[GC - coding Factory](https://coding-factory.tistory.com/829)
-[OOP, JVM 면접준비](https://imbf.github.io/interview/2021/03/02/NAVER-Practical-Interview-Preparation-4.html)
-[Guide to Garbage Collector Roots | Baeldung](https://www.baeldung.com/java-gc-roots)
-[Guide to System.gc() | Baeldung](https://www.baeldung.com/java-system-gc#garbage%20collection)
+- [GC 동작 원리와 알고리즘 총정리- inpa 블로그](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- [GC - coding Factory](https://coding-factory.tistory.com/829)
+- [OOP, JVM 면접준비](https://imbf.github.io/interview/2021/03/02/NAVER-Practical-Interview-Preparation-4.html)
+- [Guide to Garbage Collector Roots | Baeldung](https://www.baeldung.com/java-gc-roots)
+- [Guide to System.gc() | Baeldung](https://www.baeldung.com/java-system-gc#garbage%20collection)
+- [linuxism :: java - JVM 메모리 및 옵션 (ip.or.kr)](https://linuxism.ustd.ip.or.kr/291)
+- [GC - inpa blog](https://inpa.tistory.com/entry/JAVA-%E2%98%95-%EA%B0%80%EB%B9%84%EC%A7%80-%EC%BB%AC%EB%A0%89%EC%85%98GC-%EB%8F%99%EC%9E%91-%EC%9B%90%EB%A6%AC-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%F0%9F%92%AF-%EC%B4%9D%EC%A0%95%EB%A6%AC)
+- [Java Garbage Collection (naver.com)](https://d2.naver.com/helloworld/1329)
+- [GC stop the world 를 알아보자! (velog.io)](https://velog.io/@limsubin/GC-stop-the-world-%EB%9E%80)
+- [마이너 GC vs 메이저 GC vs 풀 GC - DZone](https://dzone.com/articles/minor-gc-vs-major-gc-vs-full)

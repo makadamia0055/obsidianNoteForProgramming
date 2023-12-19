@@ -17,7 +17,7 @@ GPT 3.5로 만든 개념 트리
 		- [[Controller(MVC)]]
 		- [[Model(MVC)]]
 		- [[VIew(MVC)]]
-		- [[레이어드 아키텍처]]
+		- [[layered architecture]]
 			- [[Prensentation Layer(Spring)]]
 				- [[Servlet]]
 					- [[Dispatcher Servlet]]

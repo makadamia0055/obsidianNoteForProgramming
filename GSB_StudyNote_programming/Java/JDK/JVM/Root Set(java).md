@@ -3,10 +3,6 @@ tags:
   - memory
   - GC
 aliases:
-  - Reachable Object
-  - Unreachable Object
-  - Reachable
-  - Unreachable
   - Root Set
 ---
 # Root Set란?

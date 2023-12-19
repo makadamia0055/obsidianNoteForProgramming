@@ -32,7 +32,7 @@ tags:
 
 ## [[AOP]]에 대해 설명해주세요.
 
-## Spring의 [[레이어드 아키텍처]]에 대해 설명해주세요.
+## Spring의 [[layered architecture]]에 대해 설명해주세요.
 
 ## Spring MVC란 무엇입니까?
 

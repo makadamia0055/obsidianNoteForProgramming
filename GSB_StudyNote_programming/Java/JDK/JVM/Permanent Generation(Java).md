@@ -8,8 +8,8 @@ aliases:
   - PermGen
 ---
 # Permanent Generation이란?
-- [[Java version 8|java 8]] 이전 버전까지 존재하던 힙 메모리 영역([[Heap Area(Java)|Heap Area]]과는 별도로 분류됨)으로, 로드 된 클래스 메타데이터를 추적하여, 모든 정적 컨텐츠를 저장하던 공간.
-	- [[Java version 8|java 8]]에서 [[Deprecated]]되어 [[Metaspace]] 메모리 영역으로 대체 됨. 
+- [[Java 8|java 8]] 이전 버전까지 존재하던 힙 메모리 영역([[Heap Area(Java)|Heap Area]]과는 별도로 분류됨)으로, 로드 된 클래스 메타데이터를 추적하여, 모든 정적 컨텐츠를 저장하던 공간.
+	- [[Java 8|java 8]]에서 [[Deprecated]]되어 [[Metaspace]] 메모리 영역으로 대체 됨. 
 	- 줄여서 PermGen이라고 부름.
 
 ## PermGen 의 구성
@@ -30,7 +30,7 @@ aliases:
 			- 64bit에서는 84MB
 - 메모리 크기가 제한되어 있기 때문에 PermGen은 [[OutOfMemory]] 에러 생성을 일으켰다.
 	- [[Class Loader]]가 제대로 [[Garbage Collection(java)|GC]] 되지 않아 [[Memory Leak]]가 발생했다.
-- 이러한 단점들로 결국 [[Java version 8|java 8]]부터 [[Metaspace]]로 대체된다.
+- 이러한 단점들로 결국 [[Java 8|java 8]]부터 [[Metaspace]]로 대체된다.
 	- 다만, 기존 Perm 영역에 존재하던 Static Object는 Heap 영역으로 옮겨져서 GC의 대상이 최대한 될 수 있도록 하였다.
 
 

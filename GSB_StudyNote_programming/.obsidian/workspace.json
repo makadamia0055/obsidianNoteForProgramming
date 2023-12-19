@@ -11,8 +11,13 @@
             "id": "5f675718a02a26b7",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java/자바 관련 면접 질문 정리/Java 관련 예상 면접 질문 정리.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/자바 관련 면접 질문 정리/Java 관련 예상 면접 질문 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/자바 관련 면접 질문 정리/Java 관련 예상 면접 질문 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/자바 관련 면접 질문 정리/Java 관련 예상 면접 질문 정리.md"
+              }
             }
           }
         ]
@@ -140,51 +149,51 @@
   },
   "active": "5f675718a02a26b7",
   "lastOpenFiles": [
-    "Java/기본개념(java)/DataType(Java).md",
     "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
-    "JNI.md",
-    "Java/자바 관련 면접 질문 정리/Java 관련 예상 면접 질문 정리.md",
-    "Spring/Spring 관련 개념 계층화.md",
-    "레이어드 아키텍처.md",
+    "Common CS/Week Generational Hypothesis.md",
+    "Common CS/Reachability.md",
+    "Java/JDK/JVM/Survivor Spaces(java).md",
+    "img/Common CS 관련/software architecture에서 open의 예시.png",
+    "Common CS/Reference.md",
+    "Java/JDK/JVM/GC의 구현 알고리즘 유형.md",
+    "Common CS/Promotion(GC).md",
+    "Common CS/OPEN(layered architecture).md",
+    "Common CS/layered architecture.md",
+    "Java/JDK/JVM/Eden Space(java).md",
+    "img/Java 관련/GC와 mark and sweep gif 예시.gif",
+    "Common CS/포인터 추적 방식.md",
+    "Common CS/4 tier layered architecture.md",
+    "Common CS/객체 이동 기법.md",
+    "Common CS/관심사의 분리.md",
+    "일단 생략.md",
+    "Java/JDK/JVM/Full GC(java).md",
+    "Java/자바 관련 면접 질문 정리/Java 관련 질문 - OOP, 클래스.md",
     "Java/JDK/JVM/JVM.md",
-    "Java/Java.md",
-    "Java/자바 관련 면접 질문 정리/Java, JVM 아키텍처 관련 질문 정리.md",
-    "Java 관련 질문 - OOP, 클래스.md",
     "Java/JDK/JVM/Garbage Collection(java).md",
-    "Mark And Sweep.md",
-    "Root Set(java).md",
-    "img/Java 관련/Unreachable한 객체와 GC.png",
-    "Common CS/Memory.md",
-    "Garbage Collector.md",
-    "Java/OOP(java)/Thread(java).md",
-    "Java/JDK/JVM/Metaspace.md",
-    "Java/기본개념(java)/Control Statements(java).md",
-    "Java/기본개념(java)/Operators(java).md",
-    "Java/기본개념(java)/Variable(java).md",
-    "Java/OOP(java)/HTTP Connection(java).md",
-    "Java/OOP(java)/Socket Programming(java).md",
-    "Java/OOP(java)/Networking(java).md",
-    "Java/OOP(java)/JDBC.md",
-    "Java/OOP(java)/Custom Annotations(java).md",
-    "Java/OOP(java)/Annotation(java).md",
+    "Java/JDK/JVM/Major GC(java).md",
+    "Java/JDK/JVM/Minor GC(java).md",
+    "img/Java 관련/jdk 관련/Major GC 예시.gif",
+    "img/Java 관련/jdk 관련/Promotion(GC)의 예시.png",
+    "Java/JDK/JVM/Young Generation.md",
+    "Java/JDK/JVM/Ternured Generation.md",
+    "img/Java 관련/jdk 관련/Minor GC 과정 예시.png",
+    "Common CS/Mark And Sweep.md",
+    "Common CS/Stop-the-world.md",
+    "Java/JDK/JVM/Heap Area(Java).md",
+    "Java/JDK/JVM/Heap에서 GC 과정(java).png",
+    "img/Common CS 관련/Mark And Sweep GIF 예시.gif",
+    "img/Common CS 관련/Mark And Sweep 예시.png",
+    "img/Common CS 관련/stop the world 예시.png",
+    "img/Common CS 관련/CLOSED한 계층 이동-통과의 예시.png",
+    "img/Common CS 관련",
     "I",
     "Java/OOP(java)",
     "Java/기본개념(java)",
     "Java/Java의 객체",
     "Java/자바 버전",
-    "img/Java 관련/Java 8 이후 Heap 구조.png",
-    "img/Java 관련/jdk 관련/Runtime Data area 혹은 메모리 관련/힙 영역의 상세 구성(레거시).png",
     "Java/자바 관련 면접 질문 정리",
     "무제 폴더",
     "Spring",
-    "img/Java 관련/Native Method 수행과 Stack.png",
-    "img/Java 관련/Stack내의 push pop구조와 스택 프레임.png",
-    "img/Java 관련/Stack 내의 Stack Frame 중첩과 레퍼런스 예시.png",
-    "img/Java 관련/java 8 이전의 Permanent generation.png",
-    "img/Java 관련/JVM 동작 과정.png",
-    "Java/JDK/JVM/관련 번역 문서들",
-    "img/Java 관련/jdk 관련/JVM의 내부구조.png",
-    "img/Java 관련/Local Variable Section의 구조 예시.png",
-    "Java/JDK"
+    "Java/JDK/JVM/관련 번역 문서들"
   ]
 }
