@@ -6,14 +6,16 @@ tags:
 ---
 GPT 3.5로 만든 개념 트리
 
-- [[Spring|Spring Framework]]
+- [[Spring Framework|Spring Framework]]
 	- [[IoC Container]]
+		- [[IoC]], [[DI]], [[DL]]
+			- [[Dependency|의존 관계]]
 		- [[Bean(Spring)]] 관리
 		- [[DI|의존성 주입]]
 	- [[AOP|Aspect-Oriented Programming]]
 		- [[Aspect(AOP)]]
 		- [[Advice(AOP)]], [[Pointcut(AOP)]], [[Joinpoint(AOP)]]
-	- [[MVC|Spring MVC]]
+	- [[MVC(Spring)|Spring MVC]]
 		- [[Controller(MVC)]]
 		- [[Model(MVC)]]
 		- [[VIew(MVC)]]
