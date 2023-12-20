@@ -15,6 +15,17 @@ aliases:
 	- 이후 필요에 따라 추가적인 스레드를 생성하여 병렬 처리를 수행할 수 있다.
 
 
+## Java에서 Thread를 구현하기 위한 [[Interface(java)|인터페이스]]
+- Java에서는 멀티스레드 작업을 구현하기 위한 [[Interface(java)|인터페이스]]로 [[Runnable(java)]]과 [[Callable(java)]]를 제공한다.
+
+
+[[일단 생략]]
+
+### [[Runnable(java)]]
+![[Runnable(java)]]
+
+
 # 참조
 - [[프로그래머스] 자바 중급 - 쓰레드 (velog.io)](https://velog.io/@qlgks1/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EC%9E%90%EB%B0%94-%EC%A4%91%EA%B8%89-%EC%93%B0%EB%A0%88%EB%93%9C)
 - [JAVA 기초 | 자바 기초 스레드 thread, join, Synchronized : 네이버 블로그 (naver.com)](https://m.blog.naver.com/ghdalswl77/221868897180)
+- [쓰레드, 동기화, 풀, Runnable, Callable, Future](https://jh-labs.tistory.com/269)

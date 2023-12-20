@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "729e8dd3b8eeff38",
+        "id": "ce20dfa23cd33f13",
         "type": "tabs",
         "children": [
           {
-            "id": "d99ed33b178bdbe6",
+            "id": "ddf2504126c32f57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dynamic Linking.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dynamic Linking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dynamic Linking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Dynamic Linking.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,35 +138,38 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "d99ed33b178bdbe6",
+  "active": "ddf2504126c32f57",
   "lastOpenFiles": [
-    "Linking(java).md",
-    "Java/JDK/JVM/Class Loader.md",
-    "Lazy loading.md",
-    "Dynamic Linking.md",
-    "Runtime.md",
-    "Eager loading.md",
-    "Byte Code.md",
-    "Class File(java).md",
+    "Common CS/Static Linking.md",
+    "Java/OOP(java)/Thread(java).md",
+    "Java/OOP(java)/Functional Interface(java).md",
     "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
-    "Compile(java).md",
-    "Linking.md",
-    "Compile.md",
-    "Static Linking.md",
-    "Common CS/Dependency.md",
-    "img/Common CS 관련/C언어의 컴파일 과정.png",
-    "Source Code.md",
-    "Compiler.md",
+    "Java/OOP(java)/Interface(java).md",
+    "Runnable(java).md",
+    "Return Type.md",
+    "Java/OOP(java)/Lambda Expressions(java).md",
+    "Binding.md",
     "Spring/Spring 관련 개념 계층화.md",
-    "VIew(MVC).md",
-    "DL.md",
-    "IoC Container.md",
-    "Spring/Servlet/Servlet.md",
-    "Common CS/IoC.md",
-    "Common CS/MVC.md",
-    "AOP.md",
-    "Model(MVC).md",
-    "Controller(MVC).md",
+    "Java/JDK/JVM/Linking(java).md",
+    "Common CS/Dynamic Linking.md",
+    "Common CS/Linking.md",
+    "MVC/Model(MVC).md",
+    "AOP/Pointcut(AOP).md",
+    "OOP/DL.md",
+    "OOP",
+    "MVC/Controller(MVC).md",
+    "MVC",
+    "Common CS/Compiler.md",
+    "Java/JDK/JVM/Compile(java).md",
+    "Java/JDK/JVM/Compile.md",
+    "Java/JDK/JVM/Class File(java).md",
+    "AOP/AOP.md",
+    "AOP/Advice(AOP).md",
+    "AOP",
+    "Java/JDK/JVM/Class Loader.md",
+    "Common CS/Lazy loading.md",
+    "Common CS/Runtime.md",
+    "img/Common CS 관련/C언어의 컴파일 과정.png",
     "img/Common CS 관련/POJO와 POJO를 구현하는 세 가지 가능 기술.png",
     "Spring/Servlet",
     "Spring/Spring Framework",
@@ -191,9 +185,6 @@
     "I",
     "Java/OOP(java)",
     "Java/기본개념(java)",
-    "Java/Java의 객체",
-    "Java/자바 버전",
-    "Java/자바 관련 면접 질문 정리",
-    "무제 폴더"
+    "Java/Java의 객체"
   ]
 }
