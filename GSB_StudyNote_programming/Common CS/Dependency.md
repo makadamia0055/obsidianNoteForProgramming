@@ -4,6 +4,7 @@ tags:
 aliases:
   - 의존 관계
   - Dependency
+  - 의존성
 ---
 # Dependency란?
 - [[Object|객체]]가 다른 객체와 상호 작용하는 경우를 객체의 의존 관계(Dependency)라고 한다.

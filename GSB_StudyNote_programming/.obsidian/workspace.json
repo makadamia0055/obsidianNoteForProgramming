@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b42f09c8f2248c1",
+            "id": "d99ed33b178bdbe6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Spring/Spring 관련 개념 계층화.md",
+                "file": "Dynamic Linking.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Spring/Spring 관련 개념 계층화.md",
+                "file": "Dynamic Linking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Spring/Spring 관련 개념 계층화.md",
+                "file": "Dynamic Linking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Spring/Spring 관련 개념 계층화.md"
+                "file": "Dynamic Linking.md"
               }
             }
           }
@@ -147,10 +147,27 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "0b42f09c8f2248c1",
+  "active": "d99ed33b178bdbe6",
   "lastOpenFiles": [
-    "VIew(MVC).md",
+    "Linking(java).md",
+    "Java/JDK/JVM/Class Loader.md",
+    "Lazy loading.md",
+    "Dynamic Linking.md",
+    "Runtime.md",
+    "Eager loading.md",
+    "Byte Code.md",
+    "Class File(java).md",
+    "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
+    "Compile(java).md",
+    "Linking.md",
+    "Compile.md",
+    "Static Linking.md",
+    "Common CS/Dependency.md",
+    "img/Common CS 관련/C언어의 컴파일 과정.png",
+    "Source Code.md",
+    "Compiler.md",
     "Spring/Spring 관련 개념 계층화.md",
+    "VIew(MVC).md",
     "DL.md",
     "IoC Container.md",
     "Spring/Servlet/Servlet.md",
@@ -159,24 +176,8 @@
     "AOP.md",
     "Model(MVC).md",
     "Controller(MVC).md",
-    "Joinpoint(AOP).md",
-    "Pointcut(AOP).md",
-    "Advice(AOP).md",
-    "Aspect(AOP).md",
-    "Common CS/POJO.md",
     "img/Common CS 관련/POJO와 POJO를 구현하는 세 가지 가능 기술.png",
-    "Spring/Spring Framework/Singleton Scope(Spring).md",
     "Spring/Servlet",
-    "Spring/MVC(Spring).md",
-    "Spring/Spring Framework/Bean(Spring).md",
-    "Spring/Spring Framework/Interceptor(Spring).md",
-    "Common CS/DI.md",
-    "Common CS/Dependency.md",
-    "Spring/Servlet/Servlet Container.md",
-    "정리 필요.md",
-    "Spring/Spring 관련 CS 질문.md",
-    "Spring/Spring Framework/Spring Framework.md",
-    "Common CS/Object.md",
     "Spring/Spring Framework",
     "img/Common CS 관련/software architecture에서 open의 예시.png",
     "img/Java 관련/GC와 mark and sweep gif 예시.gif",
@@ -186,7 +187,6 @@
     "Java/JDK/JVM/Heap에서 GC 과정(java).png",
     "img/Common CS 관련/Mark And Sweep GIF 예시.gif",
     "img/Common CS 관련/Mark And Sweep 예시.png",
-    "img/Common CS 관련/stop the world 예시.png",
     "img/Common CS 관련",
     "I",
     "Java/OOP(java)",
