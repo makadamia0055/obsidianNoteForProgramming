@@ -27,5 +27,5 @@ tags:
 - Java에서 [[Thread(java)|스레드(Thread)]]와 프로세스(Process)의 차이점은 무엇인가요?
 
 # Java 버전에 대해
-- [[Java 8|java 8]] 버전과 [[java 11| java 11]]버전의 차이?
+- [[Java 8|java 8]] 버전과 [[Java 11| java 11]]버전의 차이?
 - 지금까지 몇 버전을 사용했고, 그 이유는?

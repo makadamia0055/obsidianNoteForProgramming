@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ce20dfa23cd33f13",
+        "id": "2669a18d04bd2a72",
         "type": "tabs",
         "children": [
           {
-            "id": "ddf2504126c32f57",
+            "id": "4097ecabd5572291",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "IDE/IntelliJ/IntelliJ IDEA.md"
+              }
             }
           }
         ]
@@ -138,37 +147,40 @@
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "ddf2504126c32f57",
+  "active": "4097ecabd5572291",
   "lastOpenFiles": [
+    "IDE/IntelliJ/Project Structure(IntelliJ).md",
+    "IDE/IntelliJ/IntelliJ IDEA.md",
+    "IDE/IDE.md",
+    "Java/Java의 객체/Project(Java).md",
+    "Java/Java의 객체/Module(Java).md",
+    "Java/Java의 객체/Library(java).md",
+    "Common CS/Library.md",
+    "Common CS/Artifacts(Build).md",
+    "Java/자바 버전/Java 11.md",
+    "Java/자바 버전/Java 9.md",
+    "IDE/IntelliJ/IntelliJ Project Structure Setting.png",
+    "IDE/Facets(IDE).md",
+    "IDE/IntelliJ",
+    "Java/Java의 객체/Runnable(java).md",
+    "IDE",
+    "Common CS/Return Type.md",
+    "Common CS/Binding.md",
     "Common CS/Static Linking.md",
     "Java/OOP(java)/Thread(java).md",
     "Java/OOP(java)/Functional Interface(java).md",
     "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
     "Java/OOP(java)/Interface(java).md",
-    "Runnable(java).md",
-    "Return Type.md",
     "Java/OOP(java)/Lambda Expressions(java).md",
-    "Binding.md",
     "Spring/Spring 관련 개념 계층화.md",
     "Java/JDK/JVM/Linking(java).md",
     "Common CS/Dynamic Linking.md",
     "Common CS/Linking.md",
     "MVC/Model(MVC).md",
     "AOP/Pointcut(AOP).md",
-    "OOP/DL.md",
     "OOP",
-    "MVC/Controller(MVC).md",
     "MVC",
-    "Common CS/Compiler.md",
-    "Java/JDK/JVM/Compile(java).md",
-    "Java/JDK/JVM/Compile.md",
-    "Java/JDK/JVM/Class File(java).md",
-    "AOP/AOP.md",
-    "AOP/Advice(AOP).md",
     "AOP",
-    "Java/JDK/JVM/Class Loader.md",
-    "Common CS/Lazy loading.md",
-    "Common CS/Runtime.md",
     "img/Common CS 관련/C언어의 컴파일 과정.png",
     "img/Common CS 관련/POJO와 POJO를 구현하는 세 가지 가능 기술.png",
     "Spring/Servlet",
@@ -180,11 +192,8 @@
     "img/Java 관련/jdk 관련/Minor GC 과정 예시.png",
     "Java/JDK/JVM/Heap에서 GC 과정(java).png",
     "img/Common CS 관련/Mark And Sweep GIF 예시.gif",
-    "img/Common CS 관련/Mark And Sweep 예시.png",
     "img/Common CS 관련",
     "I",
-    "Java/OOP(java)",
-    "Java/기본개념(java)",
-    "Java/Java의 객체"
+    "Java/OOP(java)"
   ]
 }
