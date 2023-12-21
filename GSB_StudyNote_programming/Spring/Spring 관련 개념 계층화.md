@@ -20,11 +20,11 @@ GPT 3.5로 만든 개념 트리
 		- [[Model(MVC)]]
 		- [[VIew(MVC)]]
 		- [[layered architecture]]
-			- [[Prensentation Layer(Spring)]]
+			- [[Presentation Layer(Spring)]]
 				- [[Servlet]]
 					- [[Dispatcher Servlet]]
 				- [[Interceptor(Spring)]]
-			- [[Business Layer(Spring)]]
+			- [[Domain Layer(Spring)]]
 				- Service 클래스, Component
 			- 데이터 액세스 계층(Data Access Layer)
 	- [[Data Access(Spring)|데이터 액세스]]

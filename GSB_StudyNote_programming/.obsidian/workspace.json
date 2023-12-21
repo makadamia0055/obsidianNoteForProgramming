@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2669a18d04bd2a72",
+        "id": "b7945886616d2d01",
         "type": "tabs",
         "children": [
           {
-            "id": "4097ecabd5572291",
+            "id": "d629c3a6498b6489",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
+                "file": "Domain Layer.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mrr",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
+                "file": "Domain Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDE/IntelliJ/IntelliJ IDEA.md",
+                "file": "Domain Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDE/IntelliJ/IntelliJ IDEA.md"
+                "file": "Domain Layer.md"
               }
             }
           }
@@ -142,15 +142,45 @@
       "switcher:퀵 스위처 열기": false,
       "graph:그래프 뷰 열기": false,
       "canvas:새 캔버스 만들기": false,
-      "daily-notes:오늘의 데일리 노트 열기": false,
       "templates:템플릿 삽입": false,
+      "daily-notes:오늘의 데일리 노트 열기": false,
       "command-palette:명령어 팔레트 열기": false
     }
   },
-  "active": "4097ecabd5572291",
+  "active": "d629c3a6498b6489",
   "lastOpenFiles": [
-    "IDE/IntelliJ/Project Structure(IntelliJ).md",
+    "Template/괄호 파일(~에 대한) 템플릿.md",
+    "Template/기본 문서 템플릿.md",
+    "Presentation Layer(Spring).md",
+    "Presentation Layer(layered architecture).md",
+    "RESTful.md",
+    "Domain Layer.md",
+    "Domain Layer(Spring).md",
+    "2023-12-21.md",
+    "Data Access Layer.md",
+    "Common CS/layered architecture.md",
+    "Spring/Spring 관련 CS 질문.md",
+    "Hierarchical Architecture.md",
+    "Hierarchical Structure.md",
+    "Spring/Spring 관련 개념 계층화.md",
     "IDE/IntelliJ/IntelliJ IDEA.md",
+    "Template",
+    "무제 파일.canvas",
+    "Spring/MVC(Spring).md",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL.md",
+    "Managing Hierarchical Data in MySQL",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 24.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 23.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 22.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 21.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 20.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 18.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 17.png",
+    "Hierarchical Data.md",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 16.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 15.png",
+    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 14.png",
+    "IDE/IntelliJ/Project Structure(IntelliJ).md",
     "IDE/IDE.md",
     "Java/Java의 객체/Project(Java).md",
     "Java/Java의 객체/Module(Java).md",
@@ -158,42 +188,13 @@
     "Common CS/Library.md",
     "Common CS/Artifacts(Build).md",
     "Java/자바 버전/Java 11.md",
-    "Java/자바 버전/Java 9.md",
-    "IDE/IntelliJ/IntelliJ Project Structure Setting.png",
-    "IDE/Facets(IDE).md",
     "IDE/IntelliJ",
-    "Java/Java의 객체/Runnable(java).md",
     "IDE",
-    "Common CS/Return Type.md",
-    "Common CS/Binding.md",
-    "Common CS/Static Linking.md",
-    "Java/OOP(java)/Thread(java).md",
-    "Java/OOP(java)/Functional Interface(java).md",
-    "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
-    "Java/OOP(java)/Interface(java).md",
-    "Java/OOP(java)/Lambda Expressions(java).md",
-    "Spring/Spring 관련 개념 계층화.md",
-    "Java/JDK/JVM/Linking(java).md",
-    "Common CS/Dynamic Linking.md",
-    "Common CS/Linking.md",
-    "MVC/Model(MVC).md",
-    "AOP/Pointcut(AOP).md",
     "OOP",
     "MVC",
     "AOP",
-    "img/Common CS 관련/C언어의 컴파일 과정.png",
-    "img/Common CS 관련/POJO와 POJO를 구현하는 세 가지 가능 기술.png",
     "Spring/Servlet",
     "Spring/Spring Framework",
-    "img/Common CS 관련/software architecture에서 open의 예시.png",
-    "img/Java 관련/GC와 mark and sweep gif 예시.gif",
-    "img/Java 관련/jdk 관련/Major GC 예시.gif",
-    "img/Java 관련/jdk 관련/Promotion(GC)의 예시.png",
-    "img/Java 관련/jdk 관련/Minor GC 과정 예시.png",
-    "Java/JDK/JVM/Heap에서 GC 과정(java).png",
-    "img/Common CS 관련/Mark And Sweep GIF 예시.gif",
-    "img/Common CS 관련",
-    "I",
-    "Java/OOP(java)"
+    "img/Common CS 관련"
   ]
 }
