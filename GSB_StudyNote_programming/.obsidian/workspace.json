@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e6733946b429dccd",
+        "id": "e5d9853b29e7253c",
         "type": "tabs",
         "children": [
           {
-            "id": "768b0d832cfa7287",
+            "id": "55d2fc483f7c23e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "자료구조와 알고리즘/자료구조/Data Structures.md",
+                "file": "개념 계층화 트리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Heap",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "자료구조와 알고리즘/자료구조/Data Structures.md",
+                "file": "개념 계층화 트리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "자료구조와 알고리즘/자료구조/Data Structures.md",
+                "file": "개념 계층화 트리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "자료구조와 알고리즘/자료구조/Data Structures.md"
+                "file": "개념 계층화 트리.md"
               }
             }
           }
@@ -149,15 +148,19 @@
       "daily-notes:오늘의 데일리 노트 열기": false
     }
   },
-  "active": "768b0d832cfa7287",
+  "active": "55d2fc483f7c23e0",
   "lastOpenFiles": [
+    "자료구조와 알고리즘/자료구조/Data Structures.md",
+    "개념 계층화 트리.md",
+    "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
+    "OOP/OOP.md",
+    "자료구조와 알고리즘/알고리즘/Algorithm.md",
+    "C Sharp.md",
+    "자료구조와 알고리즘/자료구조/Linked List(Data Structures).md",
+    "자료구조와 알고리즘/자료구조/Tree(자료구조).md",
     "Java/JDK/JVM/Heap Area(Java).md",
     "Common CS/Heap(Memory).md",
-    "자료구조와 알고리즘/자료구조/Data Structures.md",
-    "Tree(자료구조).md",
     "Common CS/Stack.md",
-    "Linked List(Data Structures).md",
-    "자료구조와 알고리즘/알고리즘/Algorithm.md",
     "Common CS/객체 이동 기법.md",
     "무제 파일.canvas",
     "무제 파일.md",
@@ -176,11 +179,7 @@
     "Common CS/Presentation Layer(layered architecture).md",
     "Spring/Spring Framework/Presentation Layer(Spring).md",
     "Common CS/RESTful.md",
-    "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
     "Template/괄호 파일(~에 대한) 템플릿.md",
-    "Template/기본 문서 템플릿.md",
-    "2023-12-21.md",
-    "Common CS/layered architecture.md",
     "Template",
     "Managing Hierarchical Data in MySQL",
     "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 24.png",
