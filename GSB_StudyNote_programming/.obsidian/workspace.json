@@ -4,23 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "e5d9853b29e7253c",
+        "id": "39c51b33b54f6080",
         "type": "tabs",
         "children": [
           {
-            "id": "55d2fc483f7c23e0",
+            "id": "cd89f39d534b58fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "개념 계층화 트리.md",
+                "file": "Java/기본개념(java)/DataType(Java).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87514373ef2f2f16",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/기본개념(java)/Reference Data Type(java).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27597fe7c9882d6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "String(java).md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:Data_type",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "개념 계층화 트리.md",
+                "file": "Java/기본개념(java)/Reference Data Type(java).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "개념 계층화 트리.md",
+                "file": "Java/기본개념(java)/Reference Data Type(java).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "개념 계층화 트리.md"
+                "file": "Java/기본개념(java)/Reference Data Type(java).md"
               }
             }
           }
@@ -148,14 +175,26 @@
       "daily-notes:오늘의 데일리 노트 열기": false
     }
   },
-  "active": "55d2fc483f7c23e0",
+  "active": "87514373ef2f2f16",
   "lastOpenFiles": [
-    "자료구조와 알고리즘/자료구조/Data Structures.md",
+    "Java/기본개념(java)/DataType(Java).md",
+    "Java/기본개념(java)/Primitive Type(java).md",
+    "String(java).md",
+    "Java/기본개념(java)/Variable(java).md",
+    "Common CS/Primitive Type.md",
+    "Java/기본개념(java)/Reference Data Type(java).md",
     "개념 계층화 트리.md",
     "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
+    "Common CS/DataType.md",
     "OOP/OOP.md",
+    "Template/기본 문서 템플릿.md",
+    "Common CS/C Sharp.md",
+    "Spring/Spring Legacy의 개념 계층화 트리.md",
+    "Spring/Spring Boot의 개념 계층화 트리.md",
+    "Spring/Spring 관련 개념 계층화.md",
+    "Common CS/Transaction.md",
+    "자료구조와 알고리즘/자료구조/Data Structures.md",
     "자료구조와 알고리즘/알고리즘/Algorithm.md",
-    "C Sharp.md",
     "자료구조와 알고리즘/자료구조/Linked List(Data Structures).md",
     "자료구조와 알고리즘/자료구조/Tree(자료구조).md",
     "Java/JDK/JVM/Heap Area(Java).md",
@@ -165,21 +204,9 @@
     "무제 파일.canvas",
     "무제 파일.md",
     "자료구조와 알고리즘/자료구조와 알고리즘 영역은 일단 임시로 이렇게 정리.md",
-    "Java/JPA.md",
     "자료구조와 알고리즘/알고리즘",
     "자료구조와 알고리즘/자료구조",
     "자료구조와 알고리즘",
-    "Common CS/ORM.md",
-    "Common CS/Domain Layer.md",
-    "Common CS/Data Access Layer.md",
-    "Spring/Spring Framework/Domain Layer(Spring).md",
-    "Common CS/Hierarchical Architecture.md",
-    "Common CS/Hierarchical Data.md",
-    "Common CS/Hierarchical Structure.md",
-    "Common CS/Presentation Layer(layered architecture).md",
-    "Spring/Spring Framework/Presentation Layer(Spring).md",
-    "Common CS/RESTful.md",
-    "Template/괄호 파일(~에 대한) 템플릿.md",
     "Template",
     "Managing Hierarchical Data in MySQL",
     "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 24.png",
