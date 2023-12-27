@@ -19,35 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "87514373ef2f2f16",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/기본개념(java)/Reference Data Type(java).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27597fe7c9882d6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "String(java).md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Java/기본개념(java)/Reference Data Type(java).md",
+                "file": "Java/기본개념(java)/DataType(Java).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Java/기본개념(java)/Reference Data Type(java).md",
+                "file": "Java/기본개념(java)/DataType(Java).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Java/기본개념(java)/Reference Data Type(java).md"
+                "file": "Java/기본개념(java)/DataType(Java).md"
               }
             }
           }
@@ -175,14 +148,22 @@
       "daily-notes:오늘의 데일리 노트 열기": false
     }
   },
-  "active": "87514373ef2f2f16",
+  "active": "cd89f39d534b58fd",
   "lastOpenFiles": [
+    "Java/JDK/JVM/Class Loader.md",
+    "PaaS.md",
+    "SaaS.md",
+    "Java/JDK/JVM/Class File(java).md",
+    "Java/JDK/JVM/메서드 데이터.md",
+    "Java/JDK/JVM/Heap에서 GC 과정(java).png",
+    "Java/Java의 객체/String(java).md",
+    "Java/기본개념(java)/Operators(java).md",
+    "Java/기본개념(java)/Control Statements(java).md",
     "Java/기본개념(java)/DataType(Java).md",
+    "Java/기본개념(java)/Reference Data Type(java).md",
     "Java/기본개념(java)/Primitive Type(java).md",
-    "String(java).md",
     "Java/기본개념(java)/Variable(java).md",
     "Common CS/Primitive Type.md",
-    "Java/기본개념(java)/Reference Data Type(java).md",
     "개념 계층화 트리.md",
     "Java/자바 관련 면접 질문 정리/자바 관련 개념 계층화.md",
     "Common CS/DataType.md",
@@ -196,14 +177,7 @@
     "자료구조와 알고리즘/자료구조/Data Structures.md",
     "자료구조와 알고리즘/알고리즘/Algorithm.md",
     "자료구조와 알고리즘/자료구조/Linked List(Data Structures).md",
-    "자료구조와 알고리즘/자료구조/Tree(자료구조).md",
-    "Java/JDK/JVM/Heap Area(Java).md",
-    "Common CS/Heap(Memory).md",
-    "Common CS/Stack.md",
-    "Common CS/객체 이동 기법.md",
     "무제 파일.canvas",
-    "무제 파일.md",
-    "자료구조와 알고리즘/자료구조와 알고리즘 영역은 일단 임시로 이렇게 정리.md",
     "자료구조와 알고리즘/알고리즘",
     "자료구조와 알고리즘/자료구조",
     "자료구조와 알고리즘",
@@ -218,7 +192,6 @@
     "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 17.png",
     "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 16.png",
     "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 15.png",
-    "Managing Hierarchical Data in MySQL/Managing Hierarchical Data in MySQL img 14.png",
     "IDE/IntelliJ",
     "IDE",
     "OOP",
