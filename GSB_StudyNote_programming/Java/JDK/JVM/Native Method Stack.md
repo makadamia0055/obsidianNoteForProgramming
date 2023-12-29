@@ -35,3 +35,6 @@ tags:
 
 이것도 [[일단 생략]]
 내일 다시 쓰기
+
+## 레퍼런스
+[[JAVA] Java8부터는 static이 heap영역에 저장된다?](https://jgrammer.tistory.com/144)

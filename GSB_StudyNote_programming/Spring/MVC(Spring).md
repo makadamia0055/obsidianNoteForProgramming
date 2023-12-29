@@ -5,6 +5,9 @@ tags:
 aliases:
   - MVC
 ---
+# 상위문서
+- [[MVC]]
+
 스프링의 MVC 구조는 다음과 같은 세 가지 주요 요소로 구성됩니다:
 
 1. **Model**: Model은 **애플리케이션의 상태**와 **비즈니스 로직**을 담당합니다. 비즈니스 로직을 수행하고 데이터를 처리하는데 사용되며, 사용자 인터페이스나 데이터베이스와 직접적으로 상호작용하지 않습니다. Model은 **도메인 객체, 서비스, 리포지토리, DTO**(Data Transfer Object) 등으로 구성됩니다.
@@ -17,3 +20,10 @@ aliases:
 [[HandlerMapping]]
 [[HandlerAdapter]]
 [[ViewResolver]]
+
+[[Model 1(java web application architecture)]]
+[[Model 2(java web application architecture)]]
+
+
+## 레퍼런스
+- [DispatcherServlet, Model 1, Model 2, FrontController](https://ride-dev.tistory.com/55)

@@ -14,3 +14,7 @@ aliases:
   - 비즈니스 계층
 ---
 # [[Spring Framework|Spring]]에서 [[Domain Layer]]
+
+
+# DDD에서 Domain Layer
+- [[Domain Driven Design]]

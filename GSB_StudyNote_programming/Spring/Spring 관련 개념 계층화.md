@@ -18,7 +18,7 @@ GPT 3.5로 만든 개념 트리
 	- [[MVC(Spring)|Spring MVC]]
 		- [[Controller(MVC)]]
 		- [[Model(MVC)]]
-		- [[VIew(MVC)]]
+		- [[View(MVC)]]
 		- [[layered architecture]]
 			- [[Presentation Layer(Spring)]]
 				- [[Servlet]]

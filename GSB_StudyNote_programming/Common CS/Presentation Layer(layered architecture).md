@@ -15,7 +15,7 @@ aliases:
 	- [[Web]] Presentation 계층은 일반적으로 [[HTML]], [[CSS]], [[JavaScript]]를 사용해 개발된다.
 - CLI, HTTP 요청, HTML 처리 등을 담당한다.
 	- HTTP 요청 처리 및 HTML 렌더링에 대해 알고 있는 웹 계층
-- 흔히 말하는 [[MVC]]([[Model(MVC)]], [[VIew(MVC)]], [[Controller(MVC)]])도 이 계층에 속한다.
+- 흔히 말하는 [[MVC]]([[Model(MVC)]], [[View(MVC)]], [[Controller(MVC)]])도 이 계층에 속한다.
 
 >[!warning]  동명의 [[Presentation Layer(OSI Model)]]과 혼동하지 말 것.
 
