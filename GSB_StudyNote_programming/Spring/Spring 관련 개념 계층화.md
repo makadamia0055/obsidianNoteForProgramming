@@ -2,7 +2,7 @@
 tags:
   - architecture
   - Spring
-  - Subject_Tree
+  - concept_mapping
 ---
 GPT 3.5로 만든 개념 트리
 
