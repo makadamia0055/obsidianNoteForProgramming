@@ -2,11 +2,14 @@
 tags:
   - concept_mapping
 ---
-**루트 개념: 운영체제**
+**루트 개념: [[OS|운영체제]]**
 
 - **운영체제 기본 개념**
-    - **커널과 셸**
-    - **프로세스와 스레드**
+	- 운영체제의 구조
+	    - **[[Kernel|Kernel]]과 셸([[User Interface(OS)|User Interface]])**
+		    - [[CPU Modes]]
+		    - [[System call]]
+	    - **프로세스와 스레드**
         - **CPU 스케줄링**
     - **메모리 관리**
         - **고정 분할 방식**
