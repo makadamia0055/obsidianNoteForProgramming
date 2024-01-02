@@ -9,8 +9,8 @@ tags:
 	    - **[[Kernel|Kernel]]과 셸([[User Interface(OS)|User Interface]])**
 		    - [[CPU Modes]]
 		    - [[System call]]
-	    - **프로세스와 스레드**
-        - **CPU 스케줄링**
+	    - **[[Process]]와 [[Thread]]**
+        - [[Scheduling(OS)]]
     - **메모리 관리**
         - **고정 분할 방식**
         - **가변 분할 방식**
